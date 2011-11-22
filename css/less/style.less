@@ -1,3 +1,11 @@
+//  Configuration
+@web-font: 'Droid Serif', serif;
+
+@color1: #363636;
+@color2: #89bd44;
+@color3: #d0dde6;
+@color5: #ffffff;
+
 /* 
  * HTML5 ✰ Boilerplate
  *
@@ -32,9 +40,9 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-body { margin: 0; font-size: 13px; line-height: 1.231; }
+body { margin: 0; font-size: 13px; line-height: 1.231; background-color: @color5; }
 
-body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body, button, input, select, textarea { font-family: sans-serif; color: @color1; }
 
 /* 
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -211,7 +219,58 @@ td { vertical-align: top; }
    Author: 
    ========================================================================== */
 
-
+header{
+  background-color: @color3;
+  
+  hgroup{
+    height: 100px;
+    overflow: hidden;
+    
+    img{
+      float: left;
+      height: 90%;
+      margin-top: 5px;
+    }
+  }
+  
+  nav{
+    ul{
+      float: right;
+      margin-top: 37px;
+      font-family: @web-font;
+      font-size: 14px;
+      
+      li{
+        float: left;
+        margin: 0 5px;
+        text-shadow: 0 1px 1px @color5;
+        
+        a{
+          color: @color1;
+          text-decoration: none;
+          padding: 5px 10px;
+        }
+        
+        a:hover{
+          color: @color1;
+          border-radius: 3px;
+          background-color: darken(@color3, 10%);
+          box-shadow: 0 0 3px darken(@color3, 30%) inset;
+        }
+      }
+      
+      .selected{
+        a{
+          border-radius: 3px;
+          background-color: @color2;
+          color: @color5;
+          box-shadow: 0 0 3px darken(@color2, 10%) inset;
+          text-shadow: none;
+        }
+      }
+    }
+  }
+}
 
 
 

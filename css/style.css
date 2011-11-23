@@ -5,8 +5,8 @@ audio:not([controls]){display:none;}
 html{font-size:100%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
 body{margin:0;font-size:13px;line-height:1.231;background-color:#ffffff;}
 body,button,input,select,textarea{font-family:sans-serif;color:#363636;}
-::-moz-selection{background:#fe57a1;color:#fff;text-shadow:none;}
-::selection{background:#fe57a1;color:#fff;text-shadow:none;}
+::-moz-selection{background:#89bd44;color:#fff;text-shadow:none;}
+::selection{background:#89bd44;color:#fff;text-shadow:none;}
 a{color:#366795;}
 a:visited{color:#546677;}
 a:hover{color:#89bd44;}

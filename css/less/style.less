@@ -259,10 +259,35 @@ td { vertical-align: top; }
    Author: 
    ========================================================================== */
    
+h1{
+  font-family: @web-font;
+  font-size: 32px;
+  font-weight: normal;
+  letter-spacing: -1px;
+  color: @color1;
+}
+
 h2{
   font-family: @web-font;
   font-size: 24px;
   font-weight: bold;
+  color: @color1;
+}
+
+h3{
+  font-family: @web-font;
+  font-size: 18px;
+  font-weight: normal;
+  color: @color1;
+}
+
+h4{
+  font-family: @web-font;
+  font-size: 18px;
+  font-weight: normal;
+  color: @color1;
+  text-transform: uppercase;
+  margin: 1.5em 0 0.5em;
 }
 
 h6{
@@ -461,6 +486,114 @@ h6{
         }
       }
     }
+  }
+}
+
+#list_of_programs{
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    li{
+      width: 258px;
+      margin: 0;
+      padding: 5px 10px;
+      height: 55px;
+      background: url("../img/program-item-bg.jpg") repeat-x scroll 0 0 transparent;
+      overflow: hidden;
+      border: 1px solid #f4f4f4;
+      
+      h3{
+        color: #767676;
+        margin: 0;
+      }
+      
+      span{
+        font-size: 11px;
+        color: #bdbdbd;
+        font-style: italic;
+      }
+    }
+    
+    .selected{
+      background: url("../img/program-item-selected-bg.jpg") no-repeat scroll 0 0 transparent;
+      border: medium none;
+      width: 280px;
+      
+      h3{
+        color: #ffffff;
+      }
+    }
+  }
+  
+  .top_shadow{
+    line-height: 17px;
+    background: url("../img/program-list-shadow-top.jpg") no-repeat scroll center right transparent;
+  }
+  
+  .bottom_shadow{
+    line-height: 18px;
+    background: url("../img/program-list-shadow-bottom.jpg") no-repeat scroll center right transparent;
+  }
+}
+
+#program_details{
+  .banner{
+    background: url("../img/program-detail-banner-bg.jpg") no-repeat scroll center center transparent;
+    height: 250px;
+    margin-top: 10px;
+    overflow: hidden;
+    
+    .content{
+      background: url("../img/program-detail-banner-white-bg.png") repeat scroll center center transparent;
+      float: right;
+      padding-left: 10px;
+      height: 250px;
+      font-size: 14px;
+      font-weight: 300;
+      color: lighten(@color1, 40%);
+      
+      h1{
+        margin: 5px 0 5px;
+      }
+      
+      dl{
+        color: lighten(@color1, 20%);
+        margin: 15px 0 0;
+        
+        dt,
+        dd{
+          float: left;
+          margin: 0;
+          padding: 0;
+          line-height: 1.4em;
+        }
+        
+        dt{
+          width: 30%;
+          font-style: italic;
+        }
+        
+        dd{
+          width: 70%;
+        }
+      }
+      
+      .green_button{
+        float: right;
+        margin-right: 30px;
+      }
+    }
+  }
+  
+  .more_information{
+    font-size: 14px;
+    font-weight: 300;
+    color: lighten(@color1, 40%);
   }
 }
 

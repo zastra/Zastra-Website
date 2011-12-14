@@ -265,6 +265,7 @@ h1{
   font-weight: normal;
   letter-spacing: -1px;
   color: @color1;
+  margin: 0.2em 0 0.5em;
 }
 
 h2{
@@ -489,7 +490,7 @@ h6{
   }
 }
 
-#list_of_programs{
+.vertical_tab_list{
   margin-top: 10px;
   margin-bottom: 10px;
 
@@ -571,6 +572,70 @@ h6{
   .more_information{
     font-size: 14px;
     color: lighten(@color1, 30%);
+  }
+}
+
+#the_team_page{
+  #the_team{
+    background-color: lighten(@color3, 8%);
+    border: 1px solid darken(@color3, 5%);
+    margin: 10px;
+    padding: 10px;
+    width: 618px;
+    box-shadow: 0 0 5px lighten(@color1, 60%);
+  
+    .abstract{
+      font-style: italic;
+      padding-bottom: 10px;
+    }
+  
+    .profile{
+      margin-top: 10px;
+      padding-top: 20px;
+      border-top: 1px solid darken(@color3, 5%);
+    }
+    
+    .profile:first-child{
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .picture{
+      margin-right: 10px;
+      width: 138px;
+      
+      img{
+        width: 100%;
+      }
+    }
+    
+    .more_info{
+      width: 470px;
+    }
+    
+    .profile_name{
+      background-color: @color2;
+      font-family: @web-font;
+      font-size: 24px;
+      color: @color5;
+      padding-left: 10px;
+      line-height: 1.5em;
+      letter-spacing: -1px;
+    }
+    
+    .designation{
+      color: darken(@color2, 15%);
+      font-family: @web-font;
+      font-size: 14px;
+      text-transform: uppercase;
+      margin: 5px 0 5px 10px;
+    }
+    
+    .bio{
+      color: lighten(@color1, 30%);
+      padding-left: 10px;
+    }
   }
 }
 

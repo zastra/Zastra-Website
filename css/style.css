@@ -49,7 +49,7 @@ textarea{overflow:auto;vertical-align:top;resize:vertical;}
 input:invalid,textarea:invalid{background-color:#f0dddd;}
 table{border-collapse:collapse;border-spacing:0;}
 td{vertical-align:top;}
-h1{font-family:'Droid Serif',serif;font-size:32px;font-weight:normal;letter-spacing:-1px;color:#363636;}
+h1{font-family:'Droid Serif',serif;font-size:32px;font-weight:normal;letter-spacing:-1px;color:#363636;margin:0.2em 0 0.5em;}
 h2{font-family:'Droid Serif',serif;font-size:24px;font-weight:bold;color:#363636;}
 h3{font-family:'Droid Serif',serif;font-size:18px;font-weight:normal;color:#363636;}
 h4{font-family:'Droid Serif',serif;font-size:18px;font-weight:normal;color:#363636;text-transform:uppercase;margin:1.5em 0 0.5em;}
@@ -70,14 +70,22 @@ h6{font-size:16px;margin:0;}
 #page_footer #social_links ul li .mail{background:url("../img/icon-mail.png") no-repeat scroll 0 0 transparent;}
 #page_footer #social_links ul li .facebook{background:url("../img/icon-facebook.png") no-repeat scroll 0 0 transparent;}
 #page_footer #social_links ul li .twitter{background:url("../img/icon-twitter.png") no-repeat scroll 0 0 transparent;}
-#list_of_programs{margin-top:10px;margin-bottom:10px;}#list_of_programs ul{list-style:none;margin:0;padding:0;}#list_of_programs ul li{width:258px;margin:0;padding:5px 10px;height:55px;background:url("../img/program-item-bg.jpg") repeat-x scroll 0 0 transparent;overflow:hidden;border:1px solid #f4f4f4;cursor:pointer;}#list_of_programs ul li h3{color:#767676;margin:0;}
-#list_of_programs ul li span{font-size:11px;color:#bdbdbd;font-style:italic;}
-#list_of_programs ul .selected{background:url("../img/program-item-selected-bg.jpg") no-repeat scroll 0 0 transparent;border:medium none;width:280px;}#list_of_programs ul .selected h3{color:#ffffff;}
-#list_of_programs .top_shadow{line-height:17px;background:url("../img/program-list-shadow-top.jpg") no-repeat scroll center right transparent;}
-#list_of_programs .bottom_shadow{line-height:18px;background:url("../img/program-list-shadow-bottom.jpg") no-repeat scroll center right transparent;}
+.vertical_tab_list{margin-top:10px;margin-bottom:10px;}.vertical_tab_list ul{list-style:none;margin:0;padding:0;}.vertical_tab_list ul li{width:258px;margin:0;padding:5px 10px;height:55px;background:url("../img/program-item-bg.jpg") repeat-x scroll 0 0 transparent;overflow:hidden;border:1px solid #f4f4f4;cursor:pointer;}.vertical_tab_list ul li h3{color:#767676;margin:0;}
+.vertical_tab_list ul li span{font-size:11px;color:#bdbdbd;font-style:italic;}
+.vertical_tab_list ul .selected{background:url("../img/program-item-selected-bg.jpg") no-repeat scroll 0 0 transparent;border:medium none;width:280px;}.vertical_tab_list ul .selected h3{color:#ffffff;}
+.vertical_tab_list .top_shadow{line-height:17px;background:url("../img/program-list-shadow-top.jpg") no-repeat scroll center right transparent;}
+.vertical_tab_list .bottom_shadow{line-height:18px;background:url("../img/program-list-shadow-bottom.jpg") no-repeat scroll center right transparent;}
 #program_details .banner{background:url("../img/program-detail-banner-bg.jpg") no-repeat scroll center center transparent;height:250px;margin-top:10px;overflow:hidden;}#program_details .banner .content{background:url("../img/program-detail-banner-white-bg.png") repeat scroll center center transparent;float:right;padding-left:10px;height:250px;font-size:14px;color:#838383;}#program_details .banner .content h1{margin:5px 0 5px;}
 #program_details .banner .content .green_button{float:right;margin-right:30px;}
 #program_details .more_information{font-size:14px;color:#838383;}
+#the_team_page #the_team{background-color:#ebf0f4;border:1px solid #bfd1dd;margin:10px;padding:10px;width:618px;box-shadow:0 0 5px #cfcfcf;}#the_team_page #the_team .abstract{font-style:italic;padding-bottom:10px;}
+#the_team_page #the_team .profile{margin-top:10px;padding-top:20px;border-top:1px solid #bfd1dd;}
+#the_team_page #the_team .profile:first-child{border:none;margin:0;padding:0;}
+#the_team_page #the_team .picture{margin-right:10px;width:138px;}#the_team_page #the_team .picture img{width:100%;}
+#the_team_page #the_team .more_info{width:470px;}
+#the_team_page #the_team .profile_name{background-color:#89bd44;font-family:'Droid Serif',serif;font-size:24px;color:#ffffff;padding-left:10px;line-height:1.5em;letter-spacing:-1px;}
+#the_team_page #the_team .designation{color:#60852f;font-family:'Droid Serif',serif;font-size:14px;text-transform:uppercase;margin:5px 0 5px 10px;}
+#the_team_page #the_team .bio{color:#838383;padding-left:10px;}
 .ir{display:block;border:0;text-indent:-999em;overflow:hidden;background-color:transparent;background-repeat:no-repeat;text-align:left;direction:ltr;}
 .ir br{display:none;}
 .hidden{display:none !important;visibility:hidden;}

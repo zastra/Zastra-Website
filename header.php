@@ -7,7 +7,7 @@
           "home" => array("name" => "Home", "link" => "index.php"),
           "what_is_zastra" => array("name" => "What is Zastra", "link" => "index.php"),
           "programs" => array("name" => "Programs Offered", "link" => "program.php"),
-          "team" => array("name" => "The Team", "link" => "index.php") 
+          "team" => array("name" => "The Team", "link" => "team.php") 
         );
       ?>
       <ul>

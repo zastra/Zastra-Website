@@ -6,7 +6,7 @@
   
   <section>
     <div class="container_16">
-      <section class="grid_5" id="list_of_programs">
+      <section class="grid_5 vertical_tab_list">
         <div class="top_shadow">&nbsp;</div>
         <ul>
           <li>
@@ -61,6 +61,7 @@
               Are you an IT/ITES organization? The Take Flight program creates a talent pool of graduate and post graduate students who are readily deployable on your billable projects across any of your verticals or horizontal businesses. Access our partner network (colleges, institutes) to fulfill your recruitment needs.
             </p>
           </div>
+        </div>
       </section>
     </div>
   </section>

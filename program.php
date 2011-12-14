@@ -33,7 +33,7 @@
         <div class="bottom_shadow">&nbsp;</div>
       </section>
       
-      <section class="grid_11" id="program_details">
+      <section class="grid_11 box" id="program_details">
         
         <div class="banner clearfix">
           <div class="grid_7 content">

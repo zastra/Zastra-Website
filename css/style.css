@@ -56,6 +56,9 @@ h4{font-family:'Droid Serif',serif;font-size:18px;font-weight:normal;color:#3636
 h6{font-size:16px;margin:0;}
 .special_link{text-decoration:none;color:#8dadc3;font-size:16px;}
 .strong{font-weight:bold;}
+.left{float:left;}
+.right{float:right;}
+.box{background-color:#ebf0f4;border:1px solid #bfd1dd;margin:10px;padding:10px;box-shadow:0 0 5px #cfcfcf;}
 .green_button{background:url("../img/green-button-bg.png") no-repeat scroll 0 0 transparent;float:left;font-weight:bold;line-height:38px;margin-bottom:50px;padding:1px 0 3px 30px;text-transform:uppercase;margin:10px 0;overflow:visible;position:relative;color:#374d1b;cursor:pointer;}.green_button .end{position:absolute;width:30px;height:42px;right:-30px;top:0;background:url("../img/green-button-bg.png") no-repeat scroll right 0 transparent;}
 #page_header{background-color:#d0dde6;border-bottom:1px solid #8dadc3;}#page_header hgroup{height:100px;overflow:hidden;}#page_header hgroup img{float:left;height:90%;margin-top:5px;}
 #page_header nav ul{float:right;margin-top:37px;font-family:'Droid Serif',serif;font-size:14px;}#page_header nav ul li{float:left;margin:0 5px;text-shadow:0 1px 1px #ffffff;font-weight:bold;}#page_header nav ul li a{color:#363636;text-decoration:none;padding:5px 10px;}
@@ -75,17 +78,18 @@ h6{font-size:16px;margin:0;}
 .vertical_tab_list ul .selected{background:url("../img/program-item-selected-bg.jpg") no-repeat scroll 0 0 transparent;border:medium none;width:280px;}.vertical_tab_list ul .selected h3{color:#ffffff;}
 .vertical_tab_list .top_shadow{line-height:17px;background:url("../img/program-list-shadow-top.jpg") no-repeat scroll center right transparent;}
 .vertical_tab_list .bottom_shadow{line-height:18px;background:url("../img/program-list-shadow-bottom.jpg") no-repeat scroll center right transparent;}
-#program_details .banner{background:url("../img/program-detail-banner-bg.jpg") no-repeat scroll center center transparent;height:250px;margin-top:10px;overflow:hidden;}#program_details .banner .content{background:url("../img/program-detail-banner-white-bg.png") repeat scroll center center transparent;float:right;padding-left:10px;height:250px;font-size:14px;color:#838383;}#program_details .banner .content h1{margin:5px 0 5px;}
+#program_details{width:618px;}#program_details .banner{background:url("../img/program-detail-banner-bg.jpg") no-repeat scroll center center transparent;height:250px;margin-top:10px;overflow:hidden;}#program_details .banner .content{background:url("../img/program-detail-banner-white-bg.png") repeat scroll center center transparent;float:right;padding-left:10px;height:250px;font-size:14px;color:#838383;}#program_details .banner .content h1{margin:5px 0 5px;}
 #program_details .banner .content .green_button{float:right;margin-right:30px;}
 #program_details .more_information{font-size:14px;color:#838383;}
-#the_team_page #the_team{background-color:#ebf0f4;border:1px solid #bfd1dd;margin:10px;padding:10px;width:618px;box-shadow:0 0 5px #cfcfcf;}#the_team_page #the_team .abstract{font-style:italic;padding-bottom:10px;}
+#the_team_page #the_team{width:618px;}#the_team_page #the_team .abstract{font-style:italic;padding-bottom:10px;}
 #the_team_page #the_team .profile{margin-top:10px;padding-top:20px;border-top:1px solid #bfd1dd;}
 #the_team_page #the_team .profile:first-child{border:none;margin:0;padding:0;}
 #the_team_page #the_team .picture{margin-right:10px;width:138px;}#the_team_page #the_team .picture img{width:100%;}
 #the_team_page #the_team .more_info{width:470px;}
-#the_team_page #the_team .profile_name{background-color:#89bd44;font-family:'Droid Serif',serif;font-size:24px;color:#ffffff;padding-left:10px;line-height:1.5em;letter-spacing:-1px;}
+#the_team_page #the_team .profile_name{background-color:#89bd44;font-family:'Droid Serif',serif;font-size:24px;color:#ffffff;padding-left:10px;line-height:1.5em;letter-spacing:-1px;text-shadow:1px 1px 0 #60852f;}
 #the_team_page #the_team .designation{color:#60852f;font-family:'Droid Serif',serif;font-size:14px;text-transform:uppercase;margin:5px 0 5px 10px;}
 #the_team_page #the_team .bio{color:#838383;padding-left:10px;}
+#what_is_zastra{width:918px;}#what_is_zastra img{margin:0 0 20px 20px;}
 .ir{display:block;border:0;text-indent:-999em;overflow:hidden;background-color:transparent;background-repeat:no-repeat;text-align:left;direction:ltr;}
 .ir br{display:none;}
 .hidden{display:none !important;visibility:hidden;}

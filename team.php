@@ -21,7 +21,7 @@
         <div class="bottom_shadow">&nbsp;</div>
       </section>
       
-      <section class="grid_11" id="the_team">
+      <section class="grid_11 box" id="the_team">
         <h1>The Core Team</h1>
         <p class="abstract">
           Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.

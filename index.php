@@ -1,6 +1,7 @@
 <?php include 'page_head.php' ?>
 
 <body>
+  <?php $selected = "home" ?>
   <?php include 'header.php' ?>
   
   <section id="home_page_banner">
@@ -19,7 +20,7 @@
       <div class="grid_6 content">
         <h2>Training and Education</h2>
         <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum erat, sollicitudin accumsan mattis sit amet, condimentum venenatis sem. Nulla lacus magna, convallis id laoreet eu, cursus id mauris. Ut rhoncus ipsum sed nisi hendrerit congue. Morbi lobortis odio quis purus interdum ac rhoncus ante ultricies. Cras euismod dolor a.
+          Zastra’s training and education offerings span across educational institutes like Engineering colleges, Arts and Science colleges and Management schools. We also offer specialized training offerings for corporates.
         </div>
         <div class="green_button">
           Know More
@@ -29,7 +30,7 @@
       <div class="grid_6 content">
         <h2>Consulting Services</h2>
         <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum erat, sollicitudin accumsan mattis sit amet, condimentum venenatis sem. Nulla lacus magna, convallis id laoreet eu, cursus id mauris. Ut rhoncus ipsum sed nisi hendrerit congue. Morbi lobortis odio quis purus interdum ac rhoncus ante ultricies. Cras euismod dolor a.
+          Zastra’s consulting offerings are in niche areas that create value for any organization. Leverage our 50+ man years of delivery and consulting experience to take your organization to the next level.
         </div>
         <div class="green_button">
           Know More

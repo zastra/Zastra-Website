@@ -1,6 +1,7 @@
 <?php include 'page_head.php' ?>
 
 <body>
+  <?php $selected = "programs" ?>
   <?php include 'header.php' ?>
   
   <section>
@@ -38,16 +39,8 @@
           <div class="grid_7 content">
             <h1>Take Flight</h1>
             <div class="description">
-              A program for non metus quis enim tincidunt consectetur non sed nisi. Vestibulum vitae lobortis quam. Mauris erat nulla, vehicula id mattis iaculis, pretium a est. Phasellus euismod semper ligula, sit amet interdum lacus varius vel.
+              A program to enable students to become industry ready before they graduate. Enables colleges to attract IT/ITES organizations by training their students in relevant domains and increase their placement percentages. Enables IT/ITES organizations to reduce their “recruit-train-deploy”  timelines for freshers.
             </div>
-            <dl class="clearfix">
-              <dt>Target Audience:</dt>
-              <dd>Pursuing Graduates - 3rd year onwards</dd>
-              <dt>Duration:</dt>
-              <dd>1 year</dd>
-              <dt>Course Fees:</dt>
-              <dd>Rs. 25,000</dd>
-            </dl>
             <div class="green_button">
               Enroll Now
               <div class="end"></div>
@@ -56,23 +49,16 @@
         </div>
         
         <div class="more_information">
-          <h4>What is Take Flight?</h4>
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum erat, sollicitudin accumsan mattis sit amet, condimentum venenatis sem. Nulla lacus magna, convallis id laoreet eu, cursus id mauris. Ut rhoncus ipsum sed nisi hendrerit congue. Morbi lobortis odio quis purus interdum ac rhoncus ante ultricies. Cras euismod dolor a.
-            </p>
-          </div>
-          
           <h4>More about the Take Flight Program</h4>
           <div>
             <p>
-              Maecenas bibendum ligula non nunc commodo a ultricies nulla mollis. Ut sit amet sem sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer sit amet mi at justo consequat sagittis. Sed leo erat, laoreet at accumsan eget, dictum a mauris. Maecenas nulla magna, consectetur id scelerisque in, lacinia lacinia ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Praesent tempus tincidunt diam, sit amet pharetra risus fringilla non. Donec eros dui, fringilla vel fringilla a, rhoncus id diam.
-            </p>
+              Are you a graduate student ?  The Take Flight program is a program for graduate or post-graduate students currently enrolled in Engineering (M.E/B.E/B.Tech), Science (M.Sc – IT or Computers, MCA, B.Sc, BCA) or Management (BBA, MBA) courses. Make yourself more industry ready before you graduate by availing of 200 hours of domain oriented training, IT “life skills” and soft skills training and a domain oriented final year project. 
+            </p
             <p>
-              Vestibulum bibendum elementum lorem id congue. Donec gravida aliquet justo nec tristique. Integer turpis ipsum, volutpat eu tincidunt eu, egestas nec turpis. Phasellus leo nibh, vehicula ut vulputate sed, aliquam sit amet quam. Nulla vulputate risus id dui porta ac iaculis ligula elementum. Nulla vel bibendum risus. Duis placerat facilisis eros, non aliquam tellus viverra eu. Sed eu nulla sed ante eleifend accumsan sit amet eu purus. Pellentesque ut quam et tellus fringilla interdum sed a erat.
-            </p>
+              Are you an educational institution ? The Take Flight program enables you to give your students more exposure to industry relevant domain knowledge (Banking, Retail, Healthcare, Manufacturing …) and equip them with IT life skills (SDLC best practices, QA, Estimation techniques …). Take your college to the next level in terms of placement with Tier 1 organizations and recognition as a quality institute.  
+            </p  
             <p>
-              Curabitur tincidunt semper lacus et cursus. Vivamus ut tempus neque. Suspendisse lacus orci, dapibus ut scelerisque sed, semper at tellus. Nam eget diam metus. Nullam id ipsum non dolor dapibus convallis. Aliquam erat volutpat. Phasellus ultricies felis ut leo porta non tincidunt urna egestas. Vestibulum mattis, nisl at porttitor cursus, lorem magna mattis nulla, nec blandit magna nunc tincidunt est.
+              Are you an IT/ITES organization? The Take Flight program creates a talent pool of graduate and post graduate students who are readily deployable on your billable projects across any of your verticals or horizontal businesses. Access our partner network (colleges, institutes) to fulfill your recruitment needs.
             </p>
           </div>
       </section>

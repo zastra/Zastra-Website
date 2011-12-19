@@ -6,12 +6,16 @@
   
   <section id="home_page_banner">
     <div class="container_16 content">
-      <div class="big_text">
-        <div>
-          Zastra is a ipsum erat, sollicitudin accumsan mattis sit amet, condimentum venenatis sem. Nulla lacus magna, convallis id laoreet eu, cursus id mauris.
-        </div>
-        <a href="javascript: void(0);" class="special_link">Read More</a>
-      </div>
+      <div id="slidedeck_frame" class="skin-slidedeck">
+  			<dl class="slidedeck">
+  				<?php for($i=1; $i<=5; $i++) { ?>
+  				  <dt>Slide <?php echo $i ?></dt>
+            <dd>
+              Lorem ipsum
+            </dd>
+          <?php } ?>
+  			</dl>
+  		</div>
     </div>
   </section>
   
@@ -50,6 +54,14 @@
   </section>
   
   <?php include 'footer.php' ?>
+  
+  <script type="text/javascript">
+		$('.slidedeck').slidedeck({
+      autoPlay: true,
+      cycle: true, 
+      autoPlayInterval: 5000 
+    });
+	</script>
   
 </body>
 </html>

@@ -22,6 +22,8 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
+<script type="text/javascript" src="js/libs/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="js/libs/slidedeck.jquery.lite.pack.js"></script>
 
 <!-- scripts concatenated and minified via ant build script-->
 <script defer src="js/plugins.js"></script>

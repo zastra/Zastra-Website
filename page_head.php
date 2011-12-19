@@ -26,6 +26,7 @@
   <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/960_16_col.css">
+  <link rel="stylesheet" type="text/css" href="css/slidedeck.skin.css" media="screen" />
   <!-- end CSS-->
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->

@@ -8,12 +8,31 @@
     <div class="container_16 content">
       <div id="slidedeck_frame" class="skin-slidedeck">
   			<dl class="slidedeck">
-  				<?php for($i=1; $i<=5; $i++) { ?>
-  				  <dt>Slide <?php echo $i ?></dt>
-            <dd>
-              Lorem ipsum
-            </dd>
-          <?php } ?>
+				  <dt>Graduate Students</dt>
+          <dd>
+            <div class="tagline">Make yourself job-ready with our Domain oriented training!</div>
+            <div class="info">Domains offered: Healthcare, Retail, Banking, Manufacturing, etc.</div>
+          </dd>
+          <dt>Final Year Projects</dt>
+          <dd>
+            <div class="tagline">Make your Final year project stand out!</div>
+            <div class="info">Experience true Software Development Life cycle with our domain oriented projects!</div>
+          </dd>
+          <dt>College Management</dt>
+          <dd>
+            <div class="tagline">Make your students stand out from others.</div>
+            <div class="info">Make them more job ready! Enroll your students with the Take Flight program.</div>
+          </dd>
+          <dt>Corporates</dt>
+          <dd>
+            <div class="tagline">Your shortcut to Domain-Ready skills</div>
+            <div class="info">Access a domain-ready, IT life skills and soft skill trained talent pool which you can deploy faster on your billable projects!</div>
+          </dd>
+          <dt>Placement Officers</dt>
+          <dd>
+            <div class="tagline">Avail of our Take Flight program.</div>
+            <div class="info">Partner with our organization, train your team and increase your placement percentages!</div>
+          </dd>
   			</dl>
   		</div>
     </div>

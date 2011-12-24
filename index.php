@@ -10,13 +10,13 @@
   			<dl class="slidedeck">
 				  <dt>Graduate Students</dt>
           <dd>
-            <img class="img_bg" src="img/program-detail-banner-bg" />
+            <img class="img_bg" src="img/slidedeck/slides/graduates.jpg" />
             <div class="tagline">Make yourself job-ready with our Domain oriented training!</div>
             <div class="info">Domains offered: Healthcare, Retail, Banking, Manufacturing, etc.</div>
           </dd>
           <dt>Final Year Projects</dt>
           <dd>
-            <img class="img_bg" src="img/program-detail-banner-bg" />
+            <img class="img_bg" src="img/slidedeck/slides/final-year-projects.jpg" />
             <div class="tagline">Make your Final year project stand out!</div>
             <div class="info">Experience true Software Development Life cycle with our domain oriented projects!</div>
           </dd>

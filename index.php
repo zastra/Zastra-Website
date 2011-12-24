@@ -50,7 +50,7 @@
         <div>
           Zastra’s training and education offerings span across educational institutes like Engineering colleges, Arts and Science colleges and Management schools. We also offer specialized training offerings for corporates.
         </div>
-        <div class="green_button">
+        <div class="green_button contact_us_dialog">
           Know More
           <div class="end"></div>
         </div>
@@ -60,7 +60,7 @@
         <div>
           Zastra’s consulting offerings are in niche areas that create value for any organization. Leverage our 50+ man years of delivery and consulting experience to take your organization to the next level.
         </div>
-        <div class="green_button">
+        <div class="green_button contact_us_dialog">
           Know More
           <div class="end"></div>
         </div>
@@ -79,13 +79,15 @@
   
   <?php include 'footer.php' ?>
   
+  <?php include 'contact_us.php' ?>
+  
   <script type="text/javascript">
-		$('.slidedeck').slidedeck({
+  	$('.slidedeck').slidedeck({
       autoPlay: true,
       cycle: true, 
       autoPlayInterval: 5000 
     });
-	</script>
+  </script>
   
 </body>
 </html>

@@ -1,5 +1,6 @@
 //  Configuration
 @web-font: 'Droid Serif', serif;
+@standard-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 @color1: #363636;
 @color2: #89bd44;
@@ -18,29 +19,29 @@
   background-image:         linear-gradient(top, @top, @bottom);
 }
 
-/*@mixin rounded_corners($radius) {
-  border-radius: $radius $radius $radius $radius;
-  -moz-border-radius: $radius $radius $radius $radius;
-  -webkit-border-radius: $radius $radius $radius $radius;
+.rounded_corners_all(@a, @b, @c, @d) {
+  border-radius: @a @b @c @d;
+  -moz-border-radius: @a @b @c @d;
+  -webkit-border-radius: @a @b @c @d;
 }
 
-@mixin rounded_corners_all($a, $b, $c, $d) {
-  border-radius: $a $b $c $d;
-  -moz-border-radius: $a $b $c $d;
-  -webkit-border-radius: $a $b $c $d;
+.rounded_corners(@radius) {
+  border-radius: @radius @radius @radius @radius;
+  -moz-border-radius: @radius @radius @radius @radius;
+  -webkit-border-radius: @radius @radius @radius @radius;
 }
 
-@mixin box_shadow($x, $y, $size, $color) {
-  box-shadow: $x $y $size $color;
-  -moz-box-shadow: $x $y $size $color;
-  -webkit-box-shadow: $x $y $size $color;
+.box_shadow(@x, @y, @size, @color) {
+  box-shadow: @x @y @size @color;
+  -moz-box-shadow: @x @y @size @color;
+  -webkit-box-shadow: @x @y @size @color;
 }
 
-@mixin box_shadow_inset($size, $color) {
-  box-shadow: 0 0 $size $color inset;
-  -moz-box-shadow: 0 0 $size $color inset;
-  -webkit-box-shadow: 0 0 $size $color inset;
-}*/
+.box_shadow_inset(@size, @color) {
+  box-shadow: 0 0 @size @color inset;
+  -moz-box-shadow: 0 0 @size @color inset;
+  -webkit-box-shadow: 0 0 @size @color inset;
+}
 
 
 
@@ -82,7 +83,7 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 
 body { margin: 0; font-size: 13px; line-height: 1.231; background-color: @color5; }
 
-body, button, input, select, textarea { font-family: sans-serif; color: @color1; }
+body, button, input, select, textarea { font-family: @standard-font; color: @color1; }
 
 /* 
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -314,6 +315,14 @@ h6{
   float: right;
 }
 
+.hide{
+  display: none;
+}
+
+.horoizontal_clip{
+  overflow-x: hidden;
+}
+
 .box{
   background-color: lighten(@color3, 8%);
   border: 1px solid darken(@color3, 5%);
@@ -343,6 +352,53 @@ h6{
     right: -30px;
     top: 0;
     background: url("../img/green-button-bg.png") no-repeat scroll right 0 transparent;
+  }
+}
+
+.form{
+  .label,
+  .field{
+    font-size: 14px;
+    line-height: 40px;
+  }
+  
+  .label{
+    text-align: right;
+    color: lighten(@color1, 30%);
+    font-weight: 300;
+    font-size: 16px;
+  }
+  
+  .field_wrap{
+    border: 1px solid @color3;
+    padding: 2px 5px;
+    .rounded_corners(5px);
+    .vertical_gradient(lighten(@color1, 85%), lighten(@color1, 73%));
+    line-height: 30px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  textarea{
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    background-color: transparent;
+  }
+  
+  textarea{
+    margin-top: 7px;
+  }
+}
+
+body{
+  .ui-dialog{
+    .ui-dialog-title{
+      font-family: @web-font;
+      font-size: 16px;
+      font-weight: normal;
+      letter-spacing: -1px;
+    }
   }
 }
 
@@ -698,6 +754,17 @@ h6{
   
   img{
     margin: 0 0 20px 20px;
+  }
+}
+
+#contact_us_dialog_content{
+  background: url("../img/contact-us-person.jpg") no-repeat scroll 30px bottom transparent;
+
+  .help_text{
+    padding: 10px 0 20px;
+    color: lighten(@color1, 50%);
+    font-style: italic;
+    font-size: 12px;
   }
 }
 

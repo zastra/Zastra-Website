@@ -4,7 +4,7 @@ audio:not([controls]){display:none;}
 [hidden]{display:none;}
 html{font-size:100%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
 body{margin:0;font-size:13px;line-height:1.231;background-color:#ffffff;}
-body,button,input,select,textarea{font-family:sans-serif;color:#363636;}
+body,button,input,select,textarea{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#363636;}
 ::-moz-selection{background:#89bd44;color:#fff;text-shadow:none;}
 ::selection{background:#89bd44;color:#fff;text-shadow:none;}
 a{color:#366795;}
@@ -58,8 +58,16 @@ h6{font-size:16px;margin:0;}
 .strong{font-weight:bold;}
 .left{float:left;}
 .right{float:right;}
+.hide{display:none;}
+.horoizontal_clip{overflow-x:hidden;}
 .box{background-color:#ebf0f4;border:1px solid #bfd1dd;margin:10px;padding:10px;box-shadow:0 0 5px #cfcfcf;}
 .green_button{background:url("../img/green-button-bg.png") no-repeat scroll 0 0 transparent;float:left;font-weight:bold;line-height:38px;margin-bottom:50px;padding:1px 0 3px 30px;text-transform:uppercase;margin:10px 0;overflow:visible;position:relative;color:#374d1b;cursor:pointer;}.green_button .end{position:absolute;width:30px;height:42px;right:-30px;top:0;background:url("../img/green-button-bg.png") no-repeat scroll right 0 transparent;}
+.form .label,.form .field{font-size:14px;line-height:40px;}
+.form .label{text-align:right;color:#838383;font-weight:300;font-size:16px;}
+.form .field_wrap{border:1px solid #d0dde6;padding:2px 5px;border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;-webkit-border-radius:5px 5px 5px 5px;background-color:#ffffff;background-image:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f0f0f0));background-image:-webkit-linear-gradient(top, #ffffff, #f0f0f0);background-image:-moz-linear-gradient(top, #ffffff, #f0f0f0);background-image:-ms-linear-gradient(top, #ffffff, #f0f0f0);background-image:-o-linear-gradient(top, #ffffff, #f0f0f0);background-image:linear-gradient(top, #ffffff, #f0f0f0);line-height:30px;}
+.form input[type="text"],.form input[type="password"],.form textarea{border:none;width:100%;font-size:14px;background-color:transparent;}
+.form textarea{margin-top:7px;}
+body .ui-dialog .ui-dialog-title{font-family:'Droid Serif',serif;font-size:16px;font-weight:normal;letter-spacing:-1px;}
 #page_header{background-color:#d0dde6;border-bottom:1px solid #8dadc3;}#page_header hgroup{height:100px;overflow:hidden;}#page_header hgroup img{float:left;height:90%;margin-top:5px;}
 #page_header nav ul{float:right;margin-top:37px;font-family:'Droid Serif',serif;font-size:14px;}#page_header nav ul li{float:left;margin:0 5px;text-shadow:0 1px 1px #ffffff;font-weight:bold;}#page_header nav ul li a{color:#363636;text-decoration:none;padding:5px 10px;}
 #page_header nav ul li a:hover{color:#363636;border-radius:3px;background-color:#afc5d4;box-shadow:0 0 3px #6c95b1 inset;}
@@ -93,6 +101,7 @@ h6{font-size:16px;margin:0;}
 #the_team_page #the_team .designation{color:#60852f;font-family:'Droid Serif',serif;font-size:14px;text-transform:uppercase;margin:5px 0 5px 10px;}
 #the_team_page #the_team .bio{color:#838383;padding-left:10px;}
 #what_is_zastra{width:918px;}#what_is_zastra img{margin:0 0 20px 20px;}
+#contact_us_dialog_content{background:url("../img/contact-us-person.jpg") no-repeat scroll 30px bottom transparent;}#contact_us_dialog_content .help_text{padding:10px 0 20px;color:#b6b6b6;font-style:italic;font-size:12px;}
 .ir{display:block;border:0;text-indent:-999em;overflow:hidden;background-color:transparent;background-repeat:no-repeat;text-align:left;direction:ltr;}
 .ir br{display:none;}
 .hidden{display:none !important;visibility:hidden;}

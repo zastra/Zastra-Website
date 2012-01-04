@@ -9,24 +9,12 @@
       <section class="grid_5 vertical_tab_list">
         <div class="top_shadow">&nbsp;</div>
         <ul>
-          <li>
+          <!-- <li class="hide">
             <h3>Scholar</h3>
             <span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
-          </li>
-          <li>
-            <h3>IT Power</h3>
-            <span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
-          </li>
+          </li> -->
           <li class="selected">
             <h3>Take Flight</h3>
-            <span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
-          </li>
-          <li>
-            <h3>Zapper Pro</h3>
-            <span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
-          </li>
-          <li>
-            <h3>Super Graduate</h3>
             <span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
           </li>
         </ul>
@@ -36,13 +24,14 @@
       <section class="grid_11 box" id="program_details">
         
         <div class="banner clearfix">
+          <img src="img/program-detail-banner-bg.jpg" class="program_image" />
           <div class="grid_7 content">
             <h1>Take Flight</h1>
             <div class="description">
               A program to enable students to become industry ready before they graduate. Enables colleges to attract IT/ITES organizations by training their students in relevant domains and increase their placement percentages. Enables IT/ITES organizations to reduce their “recruit-train-deploy”  timelines for freshers.
             </div>
             <div class="green_button">
-              Enroll Now
+              Learn more
               <div class="end"></div>
             </div>
           </div>

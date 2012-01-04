@@ -412,8 +412,7 @@ body{
     
     img{
       float: left;
-      height: 90%;
-      margin-top: 5px;
+      margin-top: 10px;
     }
   }
   
@@ -659,13 +658,15 @@ body{
   width: 618px;
   
   .banner{
-    background: url("../img/program-detail-banner-bg.jpg") no-repeat scroll center center transparent;
     height: 250px;
     margin-top: 10px;
     overflow: hidden;
     
+    .program_image{
+      width: 183px;
+    }
+    
     .content{
-      background: url("../img/program-detail-banner-white-bg.png") repeat scroll center center transparent;
       float: right;
       padding-left: 10px;
       height: 250px;
@@ -751,6 +752,19 @@ body{
 
 #what_is_zastra{
   width: 918px;
+  
+  h1{
+    margin: 0.5em 0 1.5em;
+    text-align: center;
+    text-shadow: 0 0 2px lighten(@color1, 10%);
+    
+    .small{
+      font-size: 0.6em;
+      font-style: italic;
+      text-shadow: 0 -1px 0 darken(@color3, 15%);
+      color: darken(@color3, 10%);
+    }
+  }
   
   img{
     margin: 0 0 20px 20px;

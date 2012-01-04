@@ -1,11 +1,11 @@
 <header id="page_header">
   <hgroup class="container_16">
-    <img src="img/zastra-logo.jpg" />
+    <img src="img/zastra-logo.png" />
     <nav>
       <?php
         $links = array( 
           "home" => array("name" => "Home", "link" => "index.php"),
-          "what_is_zastra" => array("name" => "What is Zastra", "link" => "zastra.php"),
+          "what_is_zastra" => array("name" => "About Zastra", "link" => "zastra.php"),
           "programs" => array("name" => "Programs Offered", "link" => "program.php"),
           "team" => array("name" => "The Team", "link" => "team.php") 
         );

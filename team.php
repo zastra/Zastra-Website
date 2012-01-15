@@ -29,7 +29,7 @@
         <div class="profiles clearfix">
           <div class="clearfix profile">
             <div class="grid_3 picture alpha">
-              <img src="img/team/praveen.jpg" />
+              <img src="img/team/mahesh.jpg" />
             </div>
             <div class="grid_8 more_info alpha omega">
               <div class="profile_name"><span class="strong">Mahesh</span> Vijayaraghavan</div>
@@ -44,7 +44,7 @@
           </div>
           <div class="clearfix profile">
             <div class="grid_3 picture alpha">
-              <img src="img/team/praveen.jpg" />
+              <img src="img/team/arun.jpg" />
             </div>
             <div class="grid_8 more_info alpha omega">
               <div class="profile_name"><span class="strong">Arun</span> Venkataraman</div>

@@ -1,0 +1,83 @@
+<div class="banner clearfix">
+  <img src="img/program-detail-banner-bg.jpg" class="program_image" />
+  <div class="grid_7 content">
+    <h1>Agile Coaching</h1>
+    <div class="description">
+      Agile coaching is aimed at helping IT organizations that are embarking on adopting Agile methodology for any kind of software development - be it new products being introduced, or an architectural change for legacy products to migrate to a new architecture, or a change in a single subsystem - (for example) replacement of middleware.
+    </div>
+    <div class="green_button">
+      Learn more
+      <div class="end"></div>
+    </div>
+  </div>
+</div>
+
+<div class="more_information">
+  <h4>What will Zastra's Agile coach do?</h4>
+  <div>
+    <img src="img/agile-coaching-framework.jpg" class="auto_fit_width" />
+    The methodology followed at a broad level would be: 
+    <ol>
+      <li>
+        <div class="strong">Initial assessment</div>
+        <p>
+          The Agile coach would take the following activities: 
+          <ol>
+            <li>Spend time with the management, the core project team, developers, testers, BAs </li>
+            <li>Go through key artefacts like business requirements, current documentation </li>
+          </ol>
+          In summary assess the team's readiness for Agile. 
+          <br/><br/>
+          Duration : Upto 2 weeks to meet all stakeholders mentioned. 
+        </p>
+      </li>
+      <li>
+        <div class="strong">Agile methodology design and rollout</div>
+        <p>
+          Based on the initial assessment phase the Agile coach will do the following: 
+          <ol>
+            <li>Present readiness of the team for adoption of Agile </li>
+            <li>Design the methodology (Kanban) to be adopted by the team </li>
+            <li>Recommend the governance structure </li>
+            <li>Key handoff processes to be followed, key metrics to be monitored </li>
+            <li>Training needs</li> 
+            <li>Any risks</li>
+          </ol>
+          This would be presented this to the management and the core project team. 
+          <br/><br/>
+          Rollout activities - Agile methodology training for the team using any specific artefacts or methodology that is particular to the team's upcoming activities. 
+          <br/><br/>
+          Duration : 2-3 weeks from initial assessment phase depending on the complexity. 
+        </p>
+      </li>
+      <li>
+        <div class="strong">Adoption and mentoring phase </div>
+        <p>
+          The Agile coach will help the team with the following activities:
+          <ol>
+            <li>Facilitate definition of the product backlog planning, # of sprints, sprint content </li>
+            <li>Review and mentor definition of the user stories </li>
+            <li>Setup the Kanban board, define swimlanes, define various entry and exit criteria </li>
+            <li>WWW (who does what) </li>
+            <li>Kick off the first sprint which might typically have 2-3 user stories </li>
+          </ol>
+          He will actively mentor these user stories for daily standups, different hand off activities till "ready-to-Ship" swimlane is achieved and a reasonable velocity of the team is established. 
+          <br/><br/>
+          Duration : Depends on the length of the sprint defined 
+        </p>
+      </li>
+      <li>
+        <div class="strong">Post adoption phase</div>
+        <p>
+          After the first sprint, the Agile coach may participate in product backlog review, user story prioritization and mentoring of the team in terms of reviewing weekly metrics, hand off criteria, artefact health check and so on. 
+          <br/><br/>
+          Duration : This phase would last till all defined sprints are achieved. 
+        </p>
+      </li>
+    </ol>
+    <br/>
+    Agile Coach profile: Click here to view the coach's profile.
+    <br/></br>
+    Pricing: To be mutually agreed to upon completion of Initial assessment phase
+  </div>
+</div>

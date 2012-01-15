@@ -60,6 +60,7 @@ h6{font-size:16px;margin:0;}
 .right{float:right;}
 .hide{display:none;}
 .horoizontal_clip{overflow-x:hidden;}
+.auto_fit_width{width:100%;}
 .box{background-color:#ebf0f4;border:1px solid #bfd1dd;margin:10px;padding:10px;box-shadow:0 0 5px #cfcfcf;}
 .green_button{background:url("../img/green-button-bg.png") no-repeat scroll 0 0 transparent;float:left;font-weight:bold;line-height:38px;margin-bottom:50px;padding:1px 0 3px 30px;text-transform:uppercase;margin:10px 0;overflow:visible;position:relative;color:#3b5020;cursor:pointer;}.green_button .end{position:absolute;width:30px;height:42px;right:-30px;top:0;background:url("../img/green-button-bg.png") no-repeat scroll right 0 transparent;}
 .form .label,.form .field{font-size:14px;line-height:40px;}
@@ -84,7 +85,8 @@ body .ui-dialog .ui-dialog-title{font-family:'Droid Serif',serif;font-size:16px;
 #page_footer #social_links ul li .mail{background:url("../img/icon-mail.png") no-repeat scroll 0 0 transparent;}
 #page_footer #social_links ul li .facebook{background:url("../img/icon-facebook.png") no-repeat scroll 0 0 transparent;}
 #page_footer #social_links ul li .twitter{background:url("../img/icon-twitter.png") no-repeat scroll 0 0 transparent;}
-.vertical_tab_list{margin-top:10px;margin-bottom:10px;}.vertical_tab_list ul{list-style:none;margin:0;padding:0;}.vertical_tab_list ul li{width:258px;margin:0;padding:5px 10px;height:55px;background:url("../img/program-item-bg.jpg") repeat-x scroll 0 0 transparent;overflow:hidden;border:1px solid #f4f4f4;cursor:pointer;}.vertical_tab_list ul li h3{color:#767676;margin:0;}
+.vertical_tab_list{margin-top:10px;margin-bottom:10px;}.vertical_tab_list h2{margin:0;padding:20px 0 15px 10px;font-size:16px;text-transform:uppercase;}
+.vertical_tab_list ul{list-style:none;margin:0;padding:0;}.vertical_tab_list ul li{width:258px;margin:0;padding:5px 10px;height:55px;background:url("../img/program-item-bg.jpg") repeat-x scroll 0 0 transparent;overflow:hidden;border:1px solid #f4f4f4;cursor:pointer;}.vertical_tab_list ul li h3{color:#767676;margin:0;}
 .vertical_tab_list ul li span{font-size:11px;color:#bdbdbd;font-style:italic;}
 .vertical_tab_list ul .selected{background:url("../img/program-item-selected-bg.jpg") no-repeat scroll 0 0 transparent;border:medium none;width:280px;}.vertical_tab_list ul .selected h3{color:#ffffff;}
 .vertical_tab_list .top_shadow{line-height:17px;background:url("../img/program-list-shadow-top.jpg") no-repeat scroll center right transparent;}

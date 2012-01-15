@@ -7,55 +7,79 @@
   <section>
     <div class="container_16">
       <section class="grid_5 vertical_tab_list">
-        <div class="top_shadow">&nbsp;</div>
+        <div class="top_shadow"><h2>Training and Education</h2></div>
+        <?php
+          $training = array(
+            array("name" => "Take Flight", "link" => "programs/take_flight.php")
+          );
+        ?>
         <ul>
-          <!-- <li class="hide">
-            <h3>Scholar</h3>
-            <span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
-          </li> -->
-          <li class="selected">
-            <h3>Take Flight</h3>
+          <?php
+            foreach ($training as $i => $value) {
+          ?>
+          <li data-href="<?php echo $value["link"] ?>">
+            <h3><?php echo $value["name"] ?></h3>
             <span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
           </li>
+          <?php
+            }
+          ?>
+        </ul>
+        <div class="bottom_shadow">&nbsp;</div>
+        
+        <div class="top_shadow"><h2>Consulting Services</h2></div>
+        <?php
+          $services = array(
+            array("name" => "Agile Coaching", "link" => "programs/agile_coaching.php"),
+            array("name" => "Estimation Training", "link" => "programs/estimation_training.php"),
+            array("name" => "ISO Audit Preparation", "link" => "programs/iso_audit_preparation.php")
+          );
+        ?>
+        <ul>
+          <?php
+            foreach ($services as $i => $value) {
+          ?>
+          <li data-href="<?php echo $value["link"] ?>">
+            <h3><?php echo $value["name"] ?></h3>
+            <span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
+          </li>
+          <?php
+            }
+          ?>
         </ul>
         <div class="bottom_shadow">&nbsp;</div>
       </section>
       
       <section class="grid_11 box" id="program_details">
-        
-        <div class="banner clearfix">
-          <img src="img/program-detail-banner-bg.jpg" class="program_image" />
-          <div class="grid_7 content">
-            <h1>Take Flight</h1>
-            <div class="description">
-              A program to enable students to become industry ready before they graduate. Enables colleges to attract IT/ITES organizations by training their students in relevant domains and increase their placement percentages. Enables IT/ITES organizations to reduce their “recruit-train-deploy”  timelines for freshers.
-            </div>
-            <div class="green_button">
-              Learn more
-              <div class="end"></div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="more_information">
-          <h4>More about the Take Flight Program</h4>
-          <div>
-            <p>
-              Are you a graduate student ?  The Take Flight program is a program for graduate or post-graduate students currently enrolled in Engineering (M.E/B.E/B.Tech), Science (M.Sc – IT or Computers, MCA, B.Sc, BCA) or Management (BBA, MBA) courses. Make yourself more industry ready before you graduate by availing of 200 hours of domain oriented training, IT “life skills” and soft skills training and a domain oriented final year project. 
-            </p
-            <p>
-              Are you an educational institution ? The Take Flight program enables you to give your students more exposure to industry relevant domain knowledge (Banking, Retail, Healthcare, Manufacturing …) and equip them with IT life skills (SDLC best practices, QA, Estimation techniques …). Take your college to the next level in terms of placement with Tier 1 organizations and recognition as a quality institute.  
-            </p  
-            <p>
-              Are you an IT/ITES organization? The Take Flight program creates a talent pool of graduate and post graduate students who are readily deployable on your billable projects across any of your verticals or horizontal businesses. Access our partner network (colleges, institutes) to fulfill your recruitment needs.
-            </p>
-          </div>
-        </div>
+        Loading...
       </section>
     </div>
   </section>
   
   <?php include 'footer.php' ?>
+  
+  <script>
+  
+    $(document).ready(function(){
+      
+      $('.vertical_tab_list li').click(function(){
+        var el = $(this);
+        var target = $('#program_details').html('Loading...');
+        $.ajax({
+          url: $(this).attr('data-href'),
+          success: function(response){
+            target.html(response);
+            $('.vertical_tab_list li.selected').removeClass('selected');
+            el.addClass('selected');
+          }
+        });
+      });
+      
+      $('.vertical_tab_list li:first').click();
+      
+    });
+  
+  </script>
   
 </body>
 </html>

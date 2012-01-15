@@ -18,4 +18,6 @@ $('.contact_us_dialog').live('click', function(){
       }
     }]
   });
+  
+  return false;
 });

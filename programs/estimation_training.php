@@ -28,7 +28,7 @@
       <br/>
       <span class="strong">Who should attend:</span> Technical/Project Leads, Architects, Project Managers 
       <br/>
-      <span class="strong">How to sign up:</span> <a href="#">Click here</a> to sign up.
+      <span class="strong">How to sign up:</span> <a href="#" class="contact_us_dialog">Click here</a> to sign up.
     </p>
   </div>
   
@@ -58,7 +58,7 @@
     <br/><br/>
 
     <div class="strong">How can I sign up for consulting service?</div>
-    <a href="#">Click here</a> to contact us.
+    <a href="#" class="contact_us_dialog">Click here</a> to contact us.
   </div>
 </div>
 

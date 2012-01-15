@@ -60,10 +60,12 @@
         <div>
           Zastra’s consulting offerings are in niche areas that create value for any organization. Leverage our 50+ man years of delivery and consulting experience to take your organization to the next level.
         </div>
-        <div class="green_button contact_us_dialog">
-          Know More
-          <div class="end"></div>
-        </div>
+        <a href="http://localhost/~praveenselvam/Zastra/program.php#agile_coaching">
+          <div class="green_button">
+            Know More
+            <div class="end"></div>
+          </div>
+        </a>
       </div>
       <div class="grid_4" id="home_page_marketing">
         2 Lakh Engineering Graduates per year
@@ -78,6 +80,8 @@
   </section>
   
   <?php include 'footer.php' ?>
+  
+  <?php include 'contact_us/take_flight.php' ?>
   
   <script type="text/javascript">
   	$('.slidedeck').slidedeck({

@@ -10,14 +10,14 @@
         <div class="top_shadow"><h2>Training and Education</h2></div>
         <?php
           $training = array(
-            array("name" => "Take Flight", "link" => "programs/take_flight.php")
+            array("id" => "take_flight", "name" => "Take Flight", "link" => "programs/take_flight.php")
           );
         ?>
         <ul>
           <?php
             foreach ($training as $i => $value) {
           ?>
-          <li data-href="<?php echo $value["link"] ?>">
+          <li id="<?php echo $value["id"] ?>" data-href="<?php echo $value["link"] ?>">
             <h3><?php echo $value["name"] ?></h3>
             <span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
           </li>
@@ -30,16 +30,16 @@
         <div class="top_shadow"><h2>Consulting Services</h2></div>
         <?php
           $services = array(
-            array("name" => "Agile Coaching", "link" => "programs/agile_coaching.php"),
-            array("name" => "Estimation Training", "link" => "programs/estimation_training.php"),
-            array("name" => "ISO Audit Preparation", "link" => "programs/iso_audit_preparation.php")
+            array("id" => "agile_coaching", "name" => "Agile Coaching", "link" => "programs/agile_coaching.php"),
+            array("id" => "estimation_training", "name" => "Estimation Training", "link" => "programs/estimation_training.php"),
+            array("id" => "iso_audit_preparation", "name" => "ISO Audit Preparation", "link" => "programs/iso_audit_preparation.php")
           );
         ?>
         <ul>
           <?php
             foreach ($services as $i => $value) {
           ?>
-          <li data-href="<?php echo $value["link"] ?>">
+          <li id="<?php echo $value["id"] ?>" data-href="<?php echo $value["link"] ?>">
             <h3><?php echo $value["name"] ?></h3>
             <span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
           </li>
@@ -72,10 +72,15 @@
             $('.vertical_tab_list li.selected').removeClass('selected');
             el.addClass('selected');
           }
-        });
+        });        
+        window.location.replace('#' + el.attr('id'));
       });
       
-      $('.vertical_tab_list li:first').click();
+      if(window.location.hash.length > '#'.length){
+        $(window.location.hash).click();
+      } else {
+        $('.vertical_tab_list li:first').click();
+      }
       
     });
   

@@ -42,7 +42,7 @@
       <br/><br/>
 
       <div class="strong">How can I sign up for this consulting service ? </div>
-      <a href="#">Click here</a> to contact us.
+      <a href="#" class="contact_us_dialog">Click here</a> to contact us.
     </p>
   </div>
 </div>

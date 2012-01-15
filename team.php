@@ -35,9 +35,10 @@
               <div class="profile_name"><span class="strong">Mahesh</span> Vijayaraghavan</div>
               <div class="designation">Director</div>
               <div class="bio">
-                <p>Arun Venkataraman has 18 years of IT experience in product development and consulting organizations. He was recently holding the position of Global Operations Director at HCL Technologies, Chennai, where he was the Practice Head for the Healthcare delivery team. Arun has worked in the capacity of senior management roles at GE Healthcare, Cerner Corporation and HCL Technologies where he has led large delivery teams and enabled go to market for several products and solutions, primarily in the Healthcare Provider space. He has worked in teams which spanned across US, Europe (UK, Finland, Germany, France) and growth markets like Asia (China and Far East), including long term stints in the US.</p>
-                <p>Arun has successfully created and nurtured delivery teams from the ground up and is extremely passionate about technology aligned to resolve business problems. This same passion has now translated into co-founding Zastra Technologies, where he brings in all his years of experience on technology, business expertise to help create and realize the Zastra vision.</p>
-                <p>Arun has an MBA in Operations from Symbiosis, Pune and has a Bachelors in Engineering from Delhi Institute of Technology, Delhi majoring in Instrumentation & Control, 1994.</p>
+                <p>Mahesh Vijayaraghavan has an overall IT industry experience of 20 years in product development and consulting organizations, which includes manufacturing, signaling, telecommunications and healthcare domains.</p>
+                <p>Prior to starting Zastra Technologies, he was held senior positions as the Practice Director - Healthcare Payer Delivery Organization, HCL Technologies, India and as the Delivery Head - India Operations, The TriZetto Group, USA, a healthcare product development company.</p>
+                <p>Mahesh’s passion for teaching has translated into finding Zastra Technologies, where he leverages his knowledge in technology, business expertise in creating and realizing Zastra’s Vision.</p>
+                <p>Mahesh has a Masters in Computer Application from Thiagarajar College of Engineering, Madurai, INDIA and has a Bachelors in Mathematics from Vivekananda College, Chennai, INDIA.</p>
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
 <div class="banner clearfix">
-  <img src="img/program-detail-banner-bg.jpg" class="program_image" />
+  <img src="img/programs/take_flight.jpg" class="program_image" />
   <div class="grid_7 content">
     <h1>Take Flight</h1>
     <div class="description">

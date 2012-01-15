@@ -91,7 +91,7 @@ body .ui-dialog .ui-dialog-title{font-family:'Droid Serif',serif;font-size:16px;
 .vertical_tab_list ul .selected{background:url("../img/program-item-selected-bg.jpg") no-repeat scroll 0 0 transparent;border:medium none;width:280px;}.vertical_tab_list ul .selected h3{color:#ffffff;}
 .vertical_tab_list .top_shadow{line-height:17px;background:url("../img/program-list-shadow-top.jpg") no-repeat scroll center right transparent;}
 .vertical_tab_list .bottom_shadow{line-height:18px;background:url("../img/program-list-shadow-bottom.jpg") no-repeat scroll center right transparent;}
-#program_details{width:618px;}#program_details .banner{height:250px;margin-top:10px;overflow:hidden;}#program_details .banner .program_image{width:183px;}
+#program_details{width:618px;}#program_details .banner{height:250px;overflow:hidden;}#program_details .banner .program_image{width:183px;}
 #program_details .banner .content{float:right;padding-left:10px;height:250px;font-size:14px;color:#838383;}#program_details .banner .content h1{margin:5px 0 5px;}
 #program_details .banner .content .green_button{float:right;margin-right:30px;}
 #program_details .more_information{font-size:14px;color:#838383;}

@@ -79,8 +79,6 @@
   
   <?php include 'footer.php' ?>
   
-  <?php include 'contact_us.php' ?>
-  
   <script type="text/javascript">
   	$('.slidedeck').slidedeck({
       autoPlay: true,

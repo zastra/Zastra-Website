@@ -5,10 +5,12 @@
     <div class="description">
       Agile coaching is aimed at helping IT organizations that are embarking on adopting Agile methodology for any kind of software development - be it new products being introduced, or an architectural change for legacy products to migrate to a new architecture, or a change in a single subsystem - (for example) replacement of middleware.
     </div>
-    <div class="green_button">
-      Learn more
-      <div class="end"></div>
-    </div>
+    <a href="#" class="contact_us_dialog">
+      <div class="green_button">
+        Learn more
+        <div class="end"></div>
+      </div>
+    </a>
   </div>
 </div>
 
@@ -81,3 +83,5 @@
     Pricing: To be mutually agreed to upon completion of Initial assessment phase
   </div>
 </div>
+
+<?php include '../contact_us/general.php' ?>

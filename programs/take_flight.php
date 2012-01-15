@@ -5,10 +5,12 @@
     <div class="description">
       A program to enable students to become industry ready before they graduate. Enables colleges to attract IT/ITES organizations by training their students in relevant domains and increase their placement percentages. Enables IT/ITES organizations to reduce their “recruit-train-deploy”  timelines for freshers.
     </div>
-    <div class="green_button">
-      Learn more
-      <div class="end"></div>
-    </div>
+    <a href="#" class="contact_us_dialog">
+      <div class="green_button">
+        Learn more
+        <div class="end"></div>
+      </div>
+    </a>
   </div>
 </div>
 
@@ -26,3 +28,5 @@
     </p>
   </div>
 </div>
+
+<?php include '../contact_us/take_flight.php' ?>

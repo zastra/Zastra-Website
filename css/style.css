@@ -102,9 +102,8 @@ body .ui-dialog .ui-dialog-title{font-family:'Droid Serif',serif;font-size:16px;
 #the_team_page #the_team .more_info{width:470px;}
 #the_team_page #the_team .profile_name{background-color:#8cb851;font-family:'Droid Serif',serif;font-size:24px;color:#ffffff;padding-left:10px;line-height:1.5em;letter-spacing:-1px;text-shadow:1px 1px 0 #648637;}
 #the_team_page #the_team .designation{color:#648637;font-family:'Droid Serif',serif;font-size:14px;text-transform:uppercase;margin:5px 0 5px 10px;}
-#the_team_page #the_team .bio{color:#838383;padding-left:10px;}
+#the_team_page #the_team .bio{color:#838383;padding-left:10px;text-align:justify;}
 #what_is_zastra{width:918px;}#what_is_zastra h1{margin:0.5em 0 1.5em;text-align:center;text-shadow:0 0 2px #505050;}#what_is_zastra h1 .small{font-size:0.6em;font-style:italic;text-shadow:0 -1px 0 #9eb9cb;color:#afc5d4;}
-#what_is_zastra img{margin:0 0 20px 20px;}
 #contact_us_dialog_content{background:url("../img/contact-us-person.jpg") no-repeat scroll 30px bottom transparent;}#contact_us_dialog_content .help_text{padding:10px 0 20px;color:#b6b6b6;font-style:italic;font-size:12px;}
 .ir{display:block;border:0;text-indent:-999em;overflow:hidden;background-color:transparent;background-repeat:no-repeat;text-align:left;direction:ltr;}
 .ir br{display:none;}

@@ -24,7 +24,7 @@
 <script type="text/javascript" src="js/libs/jquery-ui-1.8.16.custom.min.js"></script>
 
 <script type="text/javascript" src="js/libs/jquery.mousewheel.min.js"></script>
-<script type="text/javascript" src="js/libs/slidedeck.jquery.lite.pack.js"></script>
+<script type="text/javascript" src="js/libs/slidedeck.jquery.pro.js"></script>
 
 <!-- scripts concatenated and minified via ant build script-->
 <script defer src="js/plugins.js"></script>

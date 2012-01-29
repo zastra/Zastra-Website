@@ -50,7 +50,7 @@
         <div>
           Zastra’s consulting offerings are in niche areas that create value for any organization. Leverage our 50+ man years of delivery and consulting experience to take your organization to the next level.
         </div>
-        <a href="http://localhost/~praveenselvam/Zastra/program.php#agile_coaching">
+        <a href="program.php#agile_coaching">
           <div class="green_button">
             Know More
             <div class="end"></div>

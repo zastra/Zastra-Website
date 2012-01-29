@@ -77,7 +77,7 @@
   	$('.slidedeck').slidedeck({
       autoPlay: true,
       cycle: true, 
-      autoPlayInterval: 5000 ,
+      autoPlayInterval: 5000,
       hideSpines: true
     });
   </script>

@@ -10,7 +10,7 @@
         <div class="top_shadow"><h2>Training and Education</h2></div>
         <?php
           $training = array(
-            array("id" => "take_flight", "name" => "Take Flight", "link" => "programs/take_flight.php")
+            array("id" => "take_flight", "name" => "Take Flight", "caption" => "A program that enhances employability of college students", "link" => "programs/take_flight.php")
           );
         ?>
         <ul>
@@ -19,7 +19,7 @@
           ?>
           <li id="<?php echo $value["id"] ?>" data-href="<?php echo $value["link"] ?>">
             <h3><?php echo $value["name"] ?></h3>
-            <span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
+            <span><?php echo $value["caption"] ?></span>
           </li>
           <?php
             }
@@ -30,9 +30,9 @@
         <div class="top_shadow"><h2>Consulting Services</h2></div>
         <?php
           $services = array(
-            array("id" => "agile_coaching", "name" => "Agile Coaching", "link" => "programs/agile_coaching.php"),
-            array("id" => "estimation_training", "name" => "Estimation Training", "link" => "programs/estimation_training.php"),
-            array("id" => "iso_audit_preparation", "name" => "ISO Audit Preparation", "link" => "programs/iso_audit_preparation.php")
+            array("id" => "agile_coaching", "name" => "Agile Coaching", "caption" => "Make your leap into Agile methodology (Kanban, Scrum)", "link" => "programs/agile_coaching.php"),
+            array("id" => "estimation_training", "name" => "Estimation Consulting", "caption" => "Consult with us on how to estimate your software development projects better", "link" => "programs/estimation_training.php"),
+            array("id" => "iso_audit_preparation", "name" => "ISO Audit Preparation", "caption" => "Engage with us to complete your ISO audit successfully", "link" => "programs/iso_audit_preparation.php")
           );
         ?>
         <ul>
@@ -41,7 +41,7 @@
           ?>
           <li id="<?php echo $value["id"] ?>" data-href="<?php echo $value["link"] ?>">
             <h3><?php echo $value["name"] ?></h3>
-            <span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
+            <span><?php echo $value["caption"] ?></span>
           </li>
           <?php
             }

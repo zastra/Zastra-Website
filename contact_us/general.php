@@ -47,7 +47,7 @@
             <select name="help_with">
               <option value="1"> Agile Coaching </option>
               <option value="2"> Agile Training </option>
-              <option value="3"> Estimation Training Workshop </option>
+              <option value="3"> Estimation Consulting Workshop </option>
               <option value="4"> Estimation Consulting </option>
               <option value="5"> ISO 9001 Audit Preparation </option>
               <option value="6"> Other </option>

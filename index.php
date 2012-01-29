@@ -22,15 +22,11 @@
           </dd>
           <dt>Corporates</dt>
           <dd>
-            <img class="img_bg" src="img/program-detail-banner-bg" />
-            <div class="tagline">Your shortcut to Domain-Ready skills</div>
-            <div class="info">Access a domain-ready, IT life skills and soft skill trained talent pool which you can deploy faster on your billable projects!</div>
+            <img class="img_bg" src="img/slidedeck/slides/corporates.jpg" />
           </dd>
           <dt>Placement Officers</dt>
           <dd>
-            <img class="img_bg" src="img/program-detail-banner-bg" />
-            <div class="tagline">Avail of our Take Flight program.</div>
-            <div class="info">Partner with our organization, train your team and increase your placement percentages!</div>
+            <img class="img_bg" src="img/slidedeck/slides/placement-officers.jpg" />
           </dd>
   			</dl>
   		</div>

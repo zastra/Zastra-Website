@@ -1,7 +1,7 @@
 <div class="banner clearfix">
   <img src="img/programs/estimation.jpg" class="program_image" />
   <div class="grid_7 content">
-    <h1>Estimation Training</h1>
+    <h1>Estimation Consulting</h1>
     <div class="description">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar iaculis vehicula. Praesent sit amet arcu tortor, a placerat nibh. Praesent vestibulum orci at magna egestas sollicitudin. Vivamus blandit nulla nec augue tincidunt mattis. Sed ligula neque, mollis ac venenatis luctus, tempus non diam. Aliquam id nisl risus, quis pellentesque arcu. Maecenas nec ligula tellus, quis tincidunt lectus.
     </div>
@@ -15,7 +15,7 @@
 </div>
 
 <div class="more_information">
-  <h4>Estimation Training</h4>
+  <h4>Estimation Consulting</h4>
   <div>
     <p>
       <span class="strong">Session Details:</span> 1 day workshop on Function Point Estimation Techniques 

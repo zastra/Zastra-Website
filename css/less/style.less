@@ -493,6 +493,28 @@ body{
       top: 0;
       left: 0;
     }
+    
+    ul{
+      left: 50%;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 275px;
+      z-index: 1;
+      list-style-position: inside;
+      
+      li{
+        float: left;
+        margin: 0 5px;
+        font-size: 24px;
+        cursor: pointer;
+      }
+      
+      li:hover,
+      li.selected{
+        color: @color2;
+      }
+    }
   }
 }
 

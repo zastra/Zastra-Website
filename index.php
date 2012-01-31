@@ -29,6 +29,8 @@
             <img class="img_bg" src="img/slidedeck/slides/placement-officers.jpg" />
           </dd>
   			</dl>
+  			<ul>
+  			</ul>
   		</div>
     </div>
   </section>
@@ -78,7 +80,23 @@
       autoPlay: true,
       cycle: true, 
       autoPlayInterval: 5000,
-      hideSpines: true
+      hideSpines: true,
+      complete: function(deck){
+        var ul = $('#slidedeck_frame ul');
+        ul.find('li').removeClass('selected').eq(deck.current - 1).addClass('selected');
+      }
+    });
+    var s = $('#slidedeck_frame');
+    var l = s.find('ul');
+    for(var i=0; i<s.find('dl dd').length; i++){
+      l.append('<li></li>');
+    }
+    l.css('margin-left', '-' + l.width()/2 + 'px')
+      .find('li:first').addClass('selected');
+    l.find('li').each(function(index, el){
+      $(this).click(function(){
+        $('.slidedeck').slidedeck().goTo(index + 1);
+      });
     });
   </script>
   

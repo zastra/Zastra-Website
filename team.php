@@ -11,7 +11,6 @@
         <ul>
           <li class="selected">
             <h3>The Core Team</h3>
-            <span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
           </li>
           <li class="hide">
             <h3>Telecommunication</h3>
@@ -23,9 +22,6 @@
       
       <section class="grid_11 box" id="the_team">
         <h1>The Core Team</h1>
-        <p class="abstract">
-          Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-        </p>
         <div class="profiles clearfix">
           <div class="clearfix profile">
             <div class="grid_3 picture alpha">

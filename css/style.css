@@ -95,8 +95,7 @@ body .ui-dialog .ui-dialog-title{font-family:'Droid Serif',serif;font-size:16px;
 #program_details .banner .content{float:right;padding-left:10px;height:250px;font-size:14px;color:#838383;}#program_details .banner .content h1{margin:5px 0 5px;}
 #program_details .banner .content .green_button{float:right;margin-right:30px;}
 #program_details .more_information{font-size:14px;color:#838383;}
-#the_team_page #the_team{width:618px;}#the_team_page #the_team .abstract{font-style:italic;padding-bottom:10px;}
-#the_team_page #the_team .profile{margin-top:10px;padding-top:20px;border-top:1px solid #bfd1dd;}
+#the_team_page #the_team{width:618px;}#the_team_page #the_team .profile{margin-top:10px;padding-top:20px;border-top:1px solid #bfd1dd;}
 #the_team_page #the_team .profile:first-child{border:none;margin:0;padding:0;}
 #the_team_page #the_team .picture{margin-right:10px;width:138px;}#the_team_page #the_team .picture img{width:100%;}
 #the_team_page #the_team .more_info{width:470px;}

@@ -59,6 +59,7 @@ h6{font-size:16px;margin:0;}
 .left{float:left;}
 .right{float:right;}
 .hide{display:none;}
+.invisible{visbility:hidden;}
 .horoizontal_clip{overflow-x:hidden;}
 .auto_fit_width{width:100%;}
 .box{background-color:#ebf0f4;border:1px solid #bfd1dd;margin:10px;padding:10px;box-shadow:0 0 5px #cfcfcf;}

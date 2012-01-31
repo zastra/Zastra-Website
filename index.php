@@ -6,7 +6,7 @@
   
   <section id="home_page_banner">
     <div class="container_16 content">
-      <div id="slidedeck_frame" class="skin-slidedeck">
+      <div id="slidedeck_frame" class="skin-slidedeck invisible">
   			<dl class="slidedeck">
 				  <dt>Graduate Students</dt>
           <dd>
@@ -98,6 +98,7 @@
         $('.slidedeck').slidedeck().goTo(index + 1);
       });
     });
+    s.removeClass('invisible');
   </script>
   
 </body>

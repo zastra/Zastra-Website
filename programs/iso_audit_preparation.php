@@ -3,7 +3,7 @@
   <div class="grid_7 content">
     <h1>ISO Audit Preparation</h1>
     <div class="description">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar iaculis vehicula. Praesent sit amet arcu tortor, a placerat nibh. Praesent vestibulum orci at magna egestas sollicitudin. Vivamus blandit nulla nec augue tincidunt mattis. Sed ligula neque, mollis ac venenatis luctus, tempus non diam. Aliquam id nisl risus, quis pellentesque arcu. Maecenas nec ligula tellus, quis tincidunt lectus.
+      Is your organization about to embark on ISO certification ? If so we can help you with truly assessing your capability and charting a path towards certification.
     </div>
     <a href="#" class="contact_us_dialog">
       <div class="green_button">

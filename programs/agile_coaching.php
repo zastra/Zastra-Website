@@ -17,7 +17,6 @@
 <div class="more_information">
   <h4>What will Zastra's Agile coach do?</h4>
   <div>
-    <img src="img/agile-coaching-framework.jpg" class="auto_fit_width" />
     The methodology followed at a broad level would be: 
     <ol>
       <li>
@@ -78,7 +77,7 @@
       </li>
     </ol>
     <br/>
-    Agile Coach profile: Click here to view the coach's profile.
+    <img src="img/agile-coaching-framework.jpg" class="auto_fit_width" />
     <br/></br>
     Pricing: To be mutually agreed to upon completion of Initial assessment phase
   </div>

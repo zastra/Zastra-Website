@@ -3,7 +3,7 @@
   <div class="grid_7 content">
     <h1>Estimation Consulting</h1>
     <div class="description">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar iaculis vehicula. Praesent sit amet arcu tortor, a placerat nibh. Praesent vestibulum orci at magna egestas sollicitudin. Vivamus blandit nulla nec augue tincidunt mattis. Sed ligula neque, mollis ac venenatis luctus, tempus non diam. Aliquam id nisl risus, quis pellentesque arcu. Maecenas nec ligula tellus, quis tincidunt lectus.
+      Estimation consulting goes beyond just training your organization on estimation, by helping you arrive at a estimation baseline, establish a repository of data and using these assets for your future projects. Taking you to the next level of organizational efficiency.
     </div>
     <a href="#" class="contact_us_dialog">
       <div class="green_button">

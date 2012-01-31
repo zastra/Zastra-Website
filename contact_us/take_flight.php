@@ -1,4 +1,4 @@
-<section id="contact_us_dialog_content" class="hide">
+<div id="contact_us_dialog_content" class="hide">
   <div class="help_text">
     Please feel free to contact us with your queries. We generally respond with 48 hours. Alternatively, you could also reach us through the contact information at the bottom of this page.
   </div>
@@ -112,4 +112,4 @@
       </div>
     </form>
   </div>
-</section>
+</div>

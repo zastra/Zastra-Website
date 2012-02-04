@@ -507,24 +507,31 @@ body{
     }
     
     ul{
-      left: 50%;
+      bottom: 17px;
+      list-style: none outside none;
       margin: 0;
       padding: 0;
       position: absolute;
-      top: 275px;
+      right: 16px;
       z-index: 1;
-      list-style-position: inside;
       
       li{
-        float: left;
-        margin: 0 5px;
-        font-size: 24px;
+        background-color: white;
+        border: 1px solid lighten(@color1, 30%);
         cursor: pointer;
+        float: left;
+        font-size: 12px;
+        height: 17px;
+        line-height: 17px;
+        margin: 0 5px;
+        text-align: center;
+        width: 17px;
       }
       
       li:hover,
       li.selected{
-        color: @color2;
+        background-color: @color2;
+        color: @color5;
       }
     }
   }

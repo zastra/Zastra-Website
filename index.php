@@ -103,10 +103,9 @@
     for(var i=0; i<s.find('dl dd').length; i++){
       l.append('<li></li>');
     }
-    l.css('margin-left', '-' + l.width()/2 + 'px')
-      .find('li:first').addClass('selected');
+    l.find('li:first').addClass('selected');
     l.find('li').each(function(index, el){
-      $(this).click(function(){
+      $(this).text(index + 1).click(function(){
         $('.slidedeck').slidedeck().goTo(index + 1);
       });
     });

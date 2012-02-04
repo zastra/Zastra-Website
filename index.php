@@ -8,25 +8,37 @@
     <div class="container_16 content">
       <div id="slidedeck_frame" class="skin-slidedeck invisible">
   			<dl class="slidedeck">
-				  <dt>Graduate Students</dt>
-          <dd>
-            <img class="img_bg" src="img/slidedeck/slides/graduates.jpg" />
-          </dd>
-          <dt>Final Year Projects</dt>
-          <dd>
-            <img class="img_bg" src="img/slidedeck/slides/final-year-projects.jpg" />
-          </dd>
-          <dt>College Management</dt>
-          <dd>
-            <img class="img_bg" src="img/slidedeck/slides/college-management.jpg" />
-          </dd>
           <dt>Corporates</dt>
           <dd>
             <img class="img_bg" src="img/slidedeck/slides/corporates.jpg" />
+            <a href="program.php#take_flight" style="left: 432px; top: 159px;">
+              <div class="green_button">Know More<div class="end"></div></div>
+            </a>
           </dd>
           <dt>Placement Officers</dt>
           <dd>
             <img class="img_bg" src="img/slidedeck/slides/placement-officers.jpg" />
+          </dd>
+          <dt>College Management</dt>
+          <dd>
+            <img class="img_bg" src="img/slidedeck/slides/college-management.jpg" />
+            <a href="program.php#take_flight" style="left: 21px; top: 163px;">
+              <div class="green_button">Know More<div class="end"></div></div>
+            </a>
+          </dd>
+          <dt>Final Year Projects</dt>
+          <dd>
+            <img class="img_bg" src="img/slidedeck/slides/final-year-projects.jpg" />
+            <a href="program.php#take_flight" style="left: 441px; top: 207px;">
+              <div class="green_button">Know More<div class="end"></div></div>
+            </a>
+          </dd>
+				  <dt>Graduate Students</dt>
+          <dd>
+            <img class="img_bg" src="img/slidedeck/slides/graduates.jpg" />
+            <a href="program.php#take_flight" style="left: 441px; top: 187px;">
+              <div class="green_button">Know More<div class="end"></div></div>
+            </a>
           </dd>
   			</dl>
   			<ul>
@@ -79,7 +91,7 @@
   	$('.slidedeck').slidedeck({
       autoPlay: true,
       cycle: true, 
-      autoPlayInterval: 5000,
+      autoPlayInterval: 7000,
       hideSpines: true,
       complete: function(deck){
         var ul = $('#slidedeck_frame ul');

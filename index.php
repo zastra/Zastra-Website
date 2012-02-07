@@ -8,16 +8,19 @@
     <div class="container_16 content">
       <div id="slidedeck_frame" class="skin-slidedeck invisible">
   			<dl class="slidedeck">
-          <dt>Corporates</dt>
+				  <dt>Graduate Students</dt>
           <dd>
-            <img class="img_bg" src="img/slidedeck/slides/corporates.jpg" />
-            <a href="program.php#take_flight" style="left: 432px; top: 159px;">
+            <img class="img_bg" src="img/slidedeck/slides/graduates.jpg" />
+            <a href="program.php#take_flight" style="left: 441px; top: 187px;">
               <div class="green_button">Know More<div class="end"></div></div>
             </a>
           </dd>
-          <dt>Placement Officers</dt>
+          <dt>Final Year Projects</dt>
           <dd>
-            <img class="img_bg" src="img/slidedeck/slides/placement-officers.jpg" />
+            <img class="img_bg" src="img/slidedeck/slides/final-year-projects.jpg" />
+            <a href="program.php#take_flight" style="left: 441px; top: 200px;">
+              <div class="green_button">Know More<div class="end"></div></div>
+            </a>
           </dd>
           <dt>College Management</dt>
           <dd>
@@ -26,17 +29,14 @@
               <div class="green_button">Know More<div class="end"></div></div>
             </a>
           </dd>
-          <dt>Final Year Projects</dt>
+          <dt>Placement Officers</dt>
           <dd>
-            <img class="img_bg" src="img/slidedeck/slides/final-year-projects.jpg" />
-            <a href="program.php#take_flight" style="left: 441px; top: 207px;">
-              <div class="green_button">Know More<div class="end"></div></div>
-            </a>
+            <img class="img_bg" src="img/slidedeck/slides/placement-officers.jpg" />
           </dd>
-				  <dt>Graduate Students</dt>
+          <dt>Corporates</dt>
           <dd>
-            <img class="img_bg" src="img/slidedeck/slides/graduates.jpg" />
-            <a href="program.php#take_flight" style="left: 441px; top: 187px;">
+            <img class="img_bg" src="img/slidedeck/slides/corporates.jpg" />
+            <a href="program.php#take_flight" style="left: 432px; top: 211px;">
               <div class="green_button">Know More<div class="end"></div></div>
             </a>
           </dd>

@@ -18,28 +18,28 @@
           <dt>Final Year Projects</dt>
           <dd>
             <img class="img_bg" src="img/slidedeck/slides/final-year-projects.jpg" />
-            <a href="program.php#take_flight" style="left: 441px; top: 200px;">
+            <a href="program.php?target=finalyr#take_flight" style="left: 441px; top: 200px;">
               <div class="green_button">Know More<div class="end"></div></div>
             </a>
           </dd>
           <dt>College Management</dt>
           <dd>
             <img class="img_bg" src="img/slidedeck/slides/college-management.jpg" />
-            <a href="program.php#take_flight" style="left: 21px; top: 163px;">
+            <a href="program.php?target=eduinst#take_flight" style="left: 21px; top: 163px;">
               <div class="green_button">Know More<div class="end"></div></div>
             </a>
           </dd>
           <dt>Placement Officers</dt>
           <dd>
             <img class="img_bg" src="img/slidedeck/slides/placement-officers.jpg" />
-            <a href="program.php#take_flight" style="left: 432px; top: 160px;">
+            <a href="program.php?target=eduinst#take_flight" style="left: 432px; top: 160px;">
               <div class="green_button">Know More<div class="end"></div></div>
             </a>
           </dd>
           <dt>Corporates</dt>
           <dd>
             <img class="img_bg" src="img/slidedeck/slides/corporates.jpg" />
-            <a href="program.php#take_flight" style="left: 432px; top: 180px;">
+            <a href="program.php?target=itites#take_flight" style="left: 432px; top: 180px;">
               <div class="green_button">Know More<div class="end"></div></div>
             </a>
           </dd>

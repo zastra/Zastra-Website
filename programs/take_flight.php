@@ -17,11 +17,11 @@
 <div class="more_information">
   <h4>More about the Take Flight Program</h4>
   <div id="accordion">
-    <h3><a href="#">Are you a graduate student?</a></h3>
+    <h3><a href="javascript: void(0);" id="grad">Are you a graduate student?</a></h3>
     <div>
       The Take Flight program is a program for graduate or post-graduate students currently enrolled in Engineering (M.E/B.E/B.Tech), Science (M.Sc – IT or Computers, MCA, B.Sc, BCA) or Management (BBA, MBA) courses. Make yourself more industry ready before you graduate by availing of 200 hours of domain oriented training, IT “life skills” and soft skills training and a domain oriented final year project. 
     </div>
-    <h3><a href="#">Are you a Final year Engineering or MCA student?</a></h3>
+    <h3><a href="javascript: void(0);" id="finalyr">Are you a Final year Engineering or MCA student?</a></h3>
     <div>
       <p>
         <div class="strong">What is the Cocoon program?</div>
@@ -59,11 +59,11 @@
         </ul>
       </p>
     </div>
-    <h3><a href="#">Are you an educational institution?</a></h3>
+    <h3><a href="javascript: void(0);" id="eduinst">Are you an educational institution?</a></h3>
     <div>
       The Take Flight program enables you to give your students more exposure to industry relevant domain knowledge (Banking, Retail, Healthcare, Manufacturing …) and equip them with IT life skills (SDLC best practices, QA, Estimation techniques …). Take your college to the next level in terms of placement with Tier 1 organizations and recognition as a quality institute.  
     </div>
-    <h3><a href="#">Are you an IT/ITES organization?</a></h3>
+    <h3><a href="javascript: void(0);" id="itites">Are you an IT/ITES organization?</a></h3>
     <div>
       The Take Flight program creates a talent pool of graduate and post graduate students who are readily deployable on your billable projects across any of your verticals or horizontal businesses. Access our partner network (colleges, institutes) to fulfill your recruitment needs.
     </div>
@@ -78,6 +78,10 @@
     $('#accordion').accordion({
       autoHeight: false
     });
+    
+    if(window.location.search.length > 1){
+      $('#' + window.location.search.split('target=')[1]).click();
+    }
   });
 
 </script>

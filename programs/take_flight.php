@@ -21,6 +21,44 @@
     <div>
       The Take Flight program is a program for graduate or post-graduate students currently enrolled in Engineering (M.E/B.E/B.Tech), Science (M.Sc – IT or Computers, MCA, B.Sc, BCA) or Management (BBA, MBA) courses. Make yourself more industry ready before you graduate by availing of 200 hours of domain oriented training, IT “life skills” and soft skills training and a domain oriented final year project. 
     </div>
+    <h3><a href="#">Are you a Final year Engineering or MCA student?</a></h3>
+    <div>
+      <p>
+        <div class="strong">What is the Cocoon program?</div>
+        A final year project program with a difference for Final year students of Engineering and Science colleges 
+      </p>
+      <p>
+        <div class="strong">What is different about the Cocoon program?</div>
+        <div class="strong">Key highlights:</div>
+        <ol>
+          <li>Aligned to one of the domains taught in the Take Flight program (Healthcare, Retail, Banking, Manufacturing ...)</li>
+          <li>Student has to complete end-to-end lifecycle (SDLC) producing artifacts for:</li>
+          <ul>
+            <li>Requirements analysis, Project Planning and estimation</li>
+            <li>Design, Implementation, Testing</li>
+          </ul>
+          <li>50 hours of mentoring by Zastra team during entire lifecycle</li>
+        </ol>
+      </p>
+      <p>
+        <div class="strong">Who can avail of this program?</div>
+        Students who are doing any of the programs
+        <ul>
+          <li>B.E./B.Tech - IT/Computers Sc/EEE/ECE</li>
+          <li>M.C.A/M.Sc - IT or M.Sc Computer Science </li>
+          <li>B.C.A/B.Sc - Computers </li>
+        </ul>
+        (Note : Its not mandated for B.C.A/B.Sc students to do a final year project as part of theircurriculum hence this program is optional) 
+      </p>
+      <p>
+        <div class="strong">How will this benefit me - what's the difference between this project and others in the market?</div>
+        <ul>
+          <li>The student has to do the project as part of a team and experience the entire SDLC</li>
+          <li>Strong domain orientation and mentoring by Zastra team</li>
+          <li>A project done in any of the domains will make you truly Industry ready for that domain</li>
+        </ul>
+      </p>
+    </div>
     <h3><a href="#">Are you an educational institution?</a></h3>
     <div>
       The Take Flight program enables you to give your students more exposure to industry relevant domain knowledge (Banking, Retail, Healthcare, Manufacturing …) and equip them with IT life skills (SDLC best practices, QA, Estimation techniques …). Take your college to the next level in terms of placement with Tier 1 organizations and recognition as a quality institute.  
@@ -37,7 +75,9 @@
 <script>
 
   $(document).ready(function(){
-    $('#accordion').accordion();
+    $('#accordion').accordion({
+      autoHeight: false
+    });
   });
 
 </script>

@@ -32,7 +32,7 @@
           <dt>Placement Officers</dt>
           <dd>
             <img class="img_bg" src="img/slidedeck/slides/placement-officers.jpg" />
-            <a href="program.php?target=eduinst#take_flight" style="left: 432px; top: 160px;">
+            <a href="program.php?target=eduinst#take_flight" style="left: 432px; top: 180px;">
               <div class="green_button">Know More<div class="end"></div></div>
             </a>
           </dd>

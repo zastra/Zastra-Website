@@ -15,36 +15,41 @@
 </div>
 
 <div class="more_information">
-  <div>
-    <p>
-      <div class="strong">What is Zastra's ISO Audit preparation services ?</div>
+  <br/>
+  <div class="accordion_content">
+    <h3><a href="javascript: void(0);">What is Zastra's ISO Audit preparation services?</a></h3>
+    <div>
       This service enables an organization that might be going in for an ISO 9001 audit to check its audit preparedness before it goes in for an audit. 
-      
-      <br/><br/>
-
-      <div class="strong">Why do I need ISO Audit "preparation" ? </div>
+    </div>
+    <h3><a href="javascript: void(0);">Why do I need ISO Audit "preparation"?</a></h3>
+    <div>
       In the experience of the Zastra team, many teams are poorly prepared for any software audit and require hand holding by experienced hands. This is observed in spite of having well documented procedures and processes, checklists. 
-      
-      <br/><br/>
-
-      <div class="strong">What is the methodology for checking preparedness ? </div>
+    </div>
+    <h3><a href="javascript: void(0);">What is the methodology for checking preparedness?</a></h3>
+    <div>
       Zastra will engage with your management team, your QA organization, your IT development and testing team and other stakeholders to check your preparedness. Zastra will conduct a detailed assessment using its set of questionnaires and detailed checklists. 
-      
       <br/><br/>
-
       At the end of the assessment Zastra team would present a detailed report on your organization's preparedness for the audit in the areas of management control, software development processes in terms of as-is state, gaps found and best practices to be adopted. 
-      
-      <br/><br/>
-
-      <div class="strong">What is the pricing for this service ? </div>
+    </div>
+    <h3><a href="javascript: void(0);">What is the pricing for this service?</a></h3>
+    <div>
       The pricing would depend on the size of the audit and the number of products that would be eventually certified. Based on information provided, a pricing model can be arrived at. 
-      
-      <br/><br/>
-
-      <div class="strong">How can I sign up for this consulting service ? </div>
+    </div>
+    <h3><a href="javascript: void(0);">How can I sign up for this consulting service?</a></h3>
+    <div>
       <a href="#" class="contact_us_dialog">Click here</a> to contact us.
-    </p>
+    </div>
   </div>
 </div>
 
 <?php include '../contact_us/general.php' ?>
+
+<script>
+
+  $(document).ready(function(){
+    $('.accordion_content').accordion({
+      autoHeight: false
+    });
+  });
+
+</script>

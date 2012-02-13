@@ -16,7 +16,7 @@
 
 <div class="more_information">
   <h4>More about the Take Flight Program</h4>
-  <div id="accordion">
+  <div class="accordion_content">
     <h3><a href="javascript: void(0);" id="grad">Are you a graduate student?</a></h3>
     <div>
       The Take Flight program is a program for graduate or post-graduate students currently enrolled in Engineering (M.E/B.E/B.Tech), Science (M.Sc – IT or Computers, MCA, B.Sc, BCA) or Management (BBA, MBA) courses. Make yourself more industry ready before you graduate by availing of 200 hours of domain oriented training, IT “life skills” and soft skills training and a domain oriented final year project. 
@@ -75,7 +75,7 @@
 <script>
 
   $(document).ready(function(){
-    $('#accordion').accordion({
+    $('.accordion_content').accordion({
       autoHeight: false
     });
     

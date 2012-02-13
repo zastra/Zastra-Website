@@ -18,64 +18,57 @@
   <h4>What will Zastra's Agile coach do?</h4>
   <div>
     The methodology followed at a broad level would be: 
-    <ol>
-      <li>
-        <div class="strong">Initial assessment</div>
-        <p>
-          The Agile coach would take the following activities: 
-          <ol>
-            <li>Spend time with the management, the core project team, developers, testers, BAs </li>
-            <li>Go through key artefacts like business requirements, current documentation </li>
-          </ol>
-          In summary assess the team's readiness for Agile. 
-          <br/><br/>
-          Duration : Upto 2 weeks to meet all stakeholders mentioned. 
-        </p>
-      </li>
-      <li>
-        <div class="strong">Agile methodology design and rollout</div>
-        <p>
-          Based on the initial assessment phase the Agile coach will do the following: 
-          <ol>
-            <li>Present readiness of the team for adoption of Agile </li>
-            <li>Design the methodology (Kanban) to be adopted by the team </li>
-            <li>Recommend the governance structure </li>
-            <li>Key handoff processes to be followed, key metrics to be monitored </li>
-            <li>Training needs</li> 
-            <li>Any risks</li>
-          </ol>
-          This would be presented this to the management and the core project team. 
-          <br/><br/>
-          Rollout activities - Agile methodology training for the team using any specific artefacts or methodology that is particular to the team's upcoming activities. 
-          <br/><br/>
-          Duration : 2-3 weeks from initial assessment phase depending on the complexity. 
-        </p>
-      </li>
-      <li>
-        <div class="strong">Adoption and mentoring phase </div>
-        <p>
-          The Agile coach will help the team with the following activities:
-          <ol>
-            <li>Facilitate definition of the product backlog planning, # of sprints, sprint content </li>
-            <li>Review and mentor definition of the user stories </li>
-            <li>Setup the Kanban board, define swimlanes, define various entry and exit criteria </li>
-            <li>WWW (who does what) </li>
-            <li>Kick off the first sprint which might typically have 2-3 user stories </li>
-          </ol>
-          He will actively mentor these user stories for daily standups, different hand off activities till "ready-to-Ship" swimlane is achieved and a reasonable velocity of the team is established. 
-          <br/><br/>
-          Duration : Depends on the length of the sprint defined 
-        </p>
-      </li>
-      <li>
-        <div class="strong">Post adoption phase</div>
-        <p>
-          After the first sprint, the Agile coach may participate in product backlog review, user story prioritization and mentoring of the team in terms of reviewing weekly metrics, hand off criteria, artefact health check and so on. 
-          <br/><br/>
-          Duration : This phase would last till all defined sprints are achieved. 
-        </p>
-      </li>
-    </ol>
+    <br/><br/>
+    <div class="accordion_content">
+      <h3><a href="javascript: void(0);">Initial assessment</a></h3>
+      <div>
+        The Agile coach would take the following activities: 
+        <ol>
+          <li>Spend time with the management, the core project team, developers, testers, BAs </li>
+          <li>Go through key artefacts like business requirements, current documentation </li>
+        </ol>
+        In summary assess the team's readiness for Agile. 
+        <br/><br/>
+        Duration : Upto 2 weeks to meet all stakeholders mentioned. 
+      </div>
+      <h3><a href="javascript: void(0);">Agile methodology design and rollout</a></h3>
+      <div>
+        Based on the initial assessment phase the Agile coach will do the following: 
+        <ol>
+          <li>Present readiness of the team for adoption of Agile </li>
+          <li>Design the methodology (Kanban) to be adopted by the team </li>
+          <li>Recommend the governance structure </li>
+          <li>Key handoff processes to be followed, key metrics to be monitored </li>
+          <li>Training needs</li> 
+          <li>Any risks</li>
+        </ol>
+        This would be presented this to the management and the core project team. 
+        <br/><br/>
+        Rollout activities - Agile methodology training for the team using any specific artefacts or methodology that is particular to the team's upcoming activities. 
+        <br/><br/>
+        Duration : 2-3 weeks from initial assessment phase depending on the complexity. 
+      </div>
+      <h3><a href="javascript: void(0);">Adoption and mentoring phase</a></h3>
+      <div>
+        The Agile coach will help the team with the following activities:
+        <ol>
+          <li>Facilitate definition of the product backlog planning, # of sprints, sprint content </li>
+          <li>Review and mentor definition of the user stories </li>
+          <li>Setup the Kanban board, define swimlanes, define various entry and exit criteria </li>
+          <li>WWW (who does what) </li>
+          <li>Kick off the first sprint which might typically have 2-3 user stories </li>
+        </ol>
+        He will actively mentor these user stories for daily standups, different hand off activities till "ready-to-Ship" swimlane is achieved and a reasonable velocity of the team is established. 
+        <br/><br/>
+        Duration : Depends on the length of the sprint defined 
+      </div>
+      <h3><a href="javascript: void(0);">Post adoption phase</a></h3>
+      <div>
+        After the first sprint, the Agile coach may participate in product backlog review, user story prioritization and mentoring of the team in terms of reviewing weekly metrics, hand off criteria, artefact health check and so on. 
+        <br/><br/>
+        Duration : This phase would last till all defined sprints are achieved. 
+      </div>
+    </div>
     <br/>
     <img src="img/agile-coaching-framework.jpg" class="auto_fit_width" />
     <br/></br>
@@ -84,3 +77,13 @@
 </div>
 
 <?php include '../contact_us/general.php' ?>
+
+<script>
+
+  $(document).ready(function(){
+    $('.accordion_content').accordion({
+      autoHeight: false
+    });
+  });
+
+</script>

@@ -34,32 +34,42 @@
   
   <h4>Estimation consulting (using FP methodology or Agile techniques)</h4>
   <div>
-    <div class="strong">What is estimation "consulting"?</div>
-
-    <span class="strong">Estimation consulting</span> will enable a team in an organization to discover the size of its software projects if it wants to perform: 
-    <ol>
-      <li>Migration from legacy architecture to new architecture</li>
-      <li>New development of the entire application </li>
-      <li>New development of a specific set of components</li> 
-    </ol>
-
-    <div class="strong">What will the estimation consultant do for me ?</div>
-    The estimation consultant will work with your team to discover the size of your project in terms of number of Function points and the effort (cost and schedule) required to complete the project. 
-    
-    <br/><br/>
-
-    The process will involve understanding the project objectives at a high level, reading any current artefacts, understanding the use cases and requirements before commencing the work of estimation. The methodology may involve some elements of the process outlined at Agile coaching in the "Inital Assessment" phase. 
-    
-    <br/><br/>
-
-    <div class="strong">What is the price of the estimation consulting?</div>
-    This depends on the initial assessment which would be done free of charge. Pricing for the estimation would be provided to the organization after the initial assessment. 
-
-    <br/><br/>
-
-    <div class="strong">How can I sign up for consulting service?</div>
-    <a href="#" class="contact_us_dialog">Click here</a> to contact us.
+    <div class="accordion_content">
+      <h3><a href="javascript: void(0);">What is estimation "consulting"?</a></h3>
+      <div>
+        <span class="strong">Estimation consulting</span> will enable a team in an organization to discover the size of its software projects if it wants to perform: 
+        <ol>
+          <li>Migration from legacy architecture to new architecture</li>
+          <li>New development of the entire application </li>
+          <li>New development of a specific set of components</li> 
+        </ol>
+      </div>
+      <h3><a href="javascript: void(0);">What will the estimation consultant do for me?</a></h3>
+      <div>
+        The estimation consultant will work with your team to discover the size of your project in terms of number of Function points and the effort (cost and schedule) required to complete the project. 
+        <br/><br/>
+        The process will involve understanding the project objectives at a high level, reading any current artefacts, understanding the use cases and requirements before commencing the work of estimation. The methodology may involve some elements of the process outlined at Agile coaching in the "Inital Assessment" phase. 
+      </div>
+      <h3><a href="javascript: void(0);">What is the price of the estimation consulting?</a></h3>
+      <div>
+        This depends on the initial assessment which would be done free of charge. Pricing for the estimation would be provided to the organization after the initial assessment. 
+      </div>
+      <h3><a href="javascript: void(0);">How can I sign up for consulting service?</a></h3>
+      <div>
+        <a href="#" class="contact_us_dialog">Click here</a> to contact us.
+      </div>
+    </div>
   </div>
 </div>
 
 <?php include '../contact_us/general.php' ?>
+
+<script>
+
+  $(document).ready(function(){
+    $('.accordion_content').accordion({
+      autoHeight: false
+    });
+  });
+
+</script>

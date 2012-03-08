@@ -63,7 +63,7 @@ h6{font-size:16px;margin:0;}
 .horoizontal_clip{overflow-x:hidden;}
 .auto_fit_width{width:100%;}
 .box{background-color:#ebf0f4;border:1px solid #bfd1dd;margin:10px;padding:10px;box-shadow:0 0 5px #cfcfcf;}
-.green_button{background:url("../img/green-button-bg.png") no-repeat scroll 0 0 transparent;float:left;font-weight:bold;line-height:38px;margin-bottom:50px;padding:1px 0 3px 30px;text-transform:uppercase;margin:10px 0;overflow:visible;position:relative;color:#3b5020;cursor:pointer;}.green_button .end{position:absolute;width:30px;height:42px;right:-30px;top:0;background:url("../img/green-button-bg.png") no-repeat scroll right 0 transparent;}
+.green_button{text-shadow: 0 1px 0 #000000; background:url("../img/green-button-bg.png") no-repeat scroll 0 0 transparent;float:left;font-weight:bold;line-height:38px;margin-bottom:50px;padding:0px 0 3px 30px;text-transform:uppercase;margin:10px 0;overflow:visible;position:relative;color:#fff;cursor:pointer;}.green_button .end{position:absolute;width:30px;height:42px;right:-30px;top:0;background:url("../img/green-button-bg.png") no-repeat scroll right 0 transparent;}
 .form .label,.form .field{font-size:14px;line-height:40px;}
 .form .label{text-align:right;color:#838383;font-weight:300;font-size:16px;}
 .form .field_wrap{border:1px solid #d0dde6;padding:2px 5px;border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;-webkit-border-radius:5px 5px 5px 5px;background-color:#ffffff;background-image:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f0f0f0));background-image:-webkit-linear-gradient(top, #ffffff, #f0f0f0);background-image:-moz-linear-gradient(top, #ffffff, #f0f0f0);background-image:-ms-linear-gradient(top, #ffffff, #f0f0f0);background-image:-o-linear-gradient(top, #ffffff, #f0f0f0);background-image:linear-gradient(top, #ffffff, #f0f0f0);line-height:30px;}
@@ -91,7 +91,7 @@ body .ui-dialog .ui-dialog-title{font-family:'Droid Serif',serif;font-size:16px;
 .vertical_tab_list ul{list-style:none;margin:0;padding:0;}.vertical_tab_list ul li{width:258px;margin:0;padding:5px 10px;height:55px;background:url("../img/program-item-bg.jpg") repeat-x scroll 0 0 transparent;overflow:hidden;border:1px solid #f4f4f4;cursor:pointer;}.vertical_tab_list ul li h3{color:#767676;margin:0;}
 .vertical_tab_list ul li span{font-size:11px;color:#bdbdbd;font-style:italic;}
 .vertical_tab_list ul .selected{background:url("../img/program-item-selected-bg.jpg") no-repeat scroll 0 0 transparent;border:medium none;width:280px;}.vertical_tab_list ul .selected h3{color:#ffffff;}
-.vertical_tab_list .top_shadow{line-height:17px;background:url("../img/program-list-shadow-top.jpg") no-repeat scroll center right transparent;}
+.vertical_tab_list .top_shadow{line-height:17px;background:url("../img/program-list-shadow-top.jpg") no-repeat scroll bottom right transparent;}
 .vertical_tab_list .bottom_shadow{line-height:18px;background:url("../img/program-list-shadow-bottom.jpg") no-repeat scroll center right transparent;}
 #program_details{width:618px;}#program_details .banner{height:250px;overflow:hidden;}#program_details .banner .program_image{width:183px;}
 #program_details .banner .content{float:right;padding-left:10px;height:250px;font-size:14px;color:#838383;}#program_details .banner .content h1{margin:5px 0 5px;}

@@ -67,13 +67,34 @@
         </div>
       </div>
       <div class="grid_4" id="home_page_marketing">
-        2 Lakh Engineering Graduates per year
-        <br/><br/>
-        20,000 get employed
-        <br/><br/>
-        Are you equiped to crack it?
-        <br/><br/>
-        <a href="javascript: void(0);" class="special_link">Read More</a>
+        <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+		<script>
+		new TWTR.Widget({
+		  version: 2,
+		  type: 'profile',
+		  rpp: 2,
+		  interval: 30000,
+		  width: 200,
+		  height: 200,
+		  theme: {
+			shell: {
+			  background: '#363636',
+			  color: '#838383'
+			},
+			tweets: {
+			  background: '#ffffff',
+			  color: '#838383',
+			  links: '#366795'
+			}
+		  },
+		  features: {
+			scrollbar: false,
+			loop: true,
+			live: false,
+			behavior: 'default'
+		  }
+		}).render().setUser('ZastraTech').start();
+		</script>
       </div>
     </div>
   </section>

@@ -81,7 +81,7 @@ body .ui-dialog .ui-dialog-title{font-family:'Droid Serif',serif;font-size:16px;
 #home_page_banner #slidedeck_frame ul li:hover,#home_page_banner #slidedeck_frame ul li.selected{background-color:#8cb851;color:#ffffff;}
 #home_page_primary_content{border-top:1px solid #8dadc3;border-bottom:1px solid #afc5d4;padding-bottom:20px;}#home_page_primary_content .content{font-size:14px;margin-top:20px;color:#838383;line-height:1.4em;}#home_page_primary_content .content h2{color:#363636;}
 #home_page_primary_content .content .green_button{margin-top:20px;}
-#home_page_marketing{background-color:#363636;margin-top:20px;box-shadow:0 0 10px #292929 inset;text-align:center;font-family:'Droid Serif',serif;color:#838383;font-size:18px;padding:30px 10px;width:200px;}
+#home_page_marketing{margin-top: 20px;width: 200px;}
 #page_footer{padding:30px 0 20px;border-top:1px solid #f1f5f8;background:url("../img/vertical-shadow.png") repeat-x scroll 0 0 #d0dde6;}#page_footer #contact_us{line-height:1.5em;text-shadow:0 1px 0 #ffffff;font-size:13px;color:#696969;}#page_footer #contact_us .mail{line-height:1.7em;font-size:14px;}
 #page_footer #social_links ul{float:right;list-style:none;}#page_footer #social_links ul li{float:left;margin-left:10px;}#page_footer #social_links ul li a{font-size:0;float:left;height:32px;width:32px;}
 #page_footer #social_links ul li .mail{background:url("../img/icon-mail.png") no-repeat scroll 0 0 transparent;}

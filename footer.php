@@ -9,8 +9,8 @@
     <aside id="social_links" class="grid_6">
       <ul>
         <li><a href="mailto: info@zastra.in" class="mail">Mail</a></li>
-        <li><a href="javascript: void(0);" class="facebook">Facebook</a></li>
-        <li><a href="javascript: void(0);" class="twitter">Twitter</a></li>
+        <li><a href="http://www.facebook.com/ZastraTechnologies" class="facebook">Facebook</a></li>
+        <li><a href="http://twitter.com/#!/ZastraTech" class="twitter">Twitter</a></li>
       </ul>
     </aside>
   </div>

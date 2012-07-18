@@ -9,18 +9,17 @@
       <section class="grid_5 vertical_tab_list">
         <div class="top_shadow">&nbsp;</div>
         <ul>
-          <li class="selected">
+          <li class="selected" target="#the_team">
             <h3>The Core Team</h3>
           </li>
-          <li class="hide">
-            <h3>Telecommunication</h3>
-            <span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
+          <li target="#partners">
+            <h3>Parters</h3>
           </li>
         </ul>
         <div class="bottom_shadow">&nbsp;</div>
       </section>
       
-      <section class="grid_11 box" id="the_team">
+      <section class="grid_11 box profiles_holder" id="the_team">
         <h1>The Core Team</h1>
         <div class="profiles clearfix">
           <div class="clearfix profile">
@@ -54,10 +53,44 @@
           </div>
         </div>
       </section>
+      
+      <section class="grid_11 box hide profiles_holder" id="partners">
+        <h1>Partners</h1>
+        <div class="profiles clearfix">
+          <div class="clearfix profile">
+            <div class="grid_3 picture alpha">
+              <img src="img/team/mahesh.jpg" />
+            </div>
+            <div class="grid_8 more_info alpha omega">
+              <div class="profile_name"><span class="strong">Mahesh</span> Vijayaraghavan</div>
+              <div class="designation">Director</div>
+              <div class="bio">
+                <p>Mahesh Vijayaraghavan has an overall IT industry experience of 20 years in product development and consulting organizations, which includes manufacturing, signaling, telecommunications and healthcare domains.</p>
+                <p>Prior to starting Zastra Technologies, he was held senior positions as the Practice Director - Healthcare Payer Delivery Organization, HCL Technologies, India and as the Delivery Head - India Operations, The TriZetto Group, USA, a healthcare product development company.</p>
+                <p>Mahesh’s passion for teaching has translated into finding Zastra Technologies, where he leverages his knowledge in technology, business expertise in creating and realizing Zastra’s Vision.</p>
+                <p>Mahesh has a Masters in Computer Application from Thiagarajar College of Engineering, Madurai, INDIA and has a Bachelors in Mathematics from Vivekananda College, Chennai, INDIA.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </section>
   
   <?php include 'footer.php' ?>
+
+  <script>
+
+    $(document).ready(function(){
+      
+      $('.vertical_tab_list li').click(function(){
+        $('.profiles_holder').hide();
+        $($(this).attr('target')).show();
+      });
+
+    });
+
+  </script>
   
 </body>
 </html>
